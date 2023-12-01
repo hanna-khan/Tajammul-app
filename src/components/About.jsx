@@ -10,7 +10,7 @@ const About = () => {
             About us
           </div>
           <div className="flex container m-auto">
-            <div className="flex-1 ml-4">
+            <div className="flex-1">
               {" "}
               {/* Add ml-4 for left margin */}
               <img
@@ -19,18 +19,17 @@ const About = () => {
                 alt="mobile image"
               />
             </div>
-            <div className="flex-1 mr-4">
-              
+            <div className="flex-1">
               <div className="mt-[120px] w-[600px] flex">
                 <img src="./orangeBag.png" alt="" />
                 <span className="ml-2 text-[#273B60] text-[55px] font-semibold text-center">
                   tajammul.app
                 </span>
               </div>
-                <span className="text-orange-500 text-[15px] font-medium leading-[23px]">
+              <div className="text-right text-orange-500 text-[12px] font-bold leading-[23px] mr-[170px]">
                 Shopping Made Easy
-              </span>
-              <div className="text-xl font-normal leading-[normal] tracking-[0px] text-slate-700">
+              </div>
+              <div className="text-lg font-medium leading-[28px] tracking-[0px] text-slate-700">
                 Tajammul is an online solution for online groceries, food, and
                 daily needs delivery. More importantly, it provides a platform
                 for consumers to book services based on their current location.

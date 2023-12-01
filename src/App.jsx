@@ -4,7 +4,7 @@ import About from './components/About';
 
 function App() {
   return (
-    <div className='overflow-hidden'>
+    <div className='font-poppins overflow-hidden'>
       <Hero/>
       <About/>
     </div>
