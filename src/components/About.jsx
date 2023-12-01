@@ -29,7 +29,7 @@ const About = () => {
               <div className="text-right text-orange-500 text-[12px] font-bold leading-[23px] mr-[170px]">
                 Shopping Made Easy
               </div>
-              <div className="text-lg font-medium leading-[28px] tracking-[0px] text-slate-700">
+              <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700">
                 Tajammul is an online solution for online groceries, food, and
                 daily needs delivery. More importantly, it provides a platform
                 for consumers to book services based on their current location.
