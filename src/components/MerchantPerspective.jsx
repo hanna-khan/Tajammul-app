@@ -885,7 +885,7 @@ const MerchantPerspective = () => {
                   Add your product or <br />
                   services
                 </div>
-                <div className="relative h-60 w-80">
+                <div className="relative h-60 w-76">
                   <svg
                     style={{ overflow: "visible", width: "16rem", position: 'relative', bottom: '20px', left: '30px' }}
                     viewBox="0 0 328 244.03"
