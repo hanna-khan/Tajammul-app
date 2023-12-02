@@ -5,7 +5,7 @@ const MerchantPerspective = () => {
     <div className="w-full h-[881px] bg-stone-50">
       <div className="ml-[100px] mr-[100px] container">
         <div className="flex m-auto">
-          <div className="flex-1 min-w-[50%]">
+          <div className="flex-1 min-w-[50%] m-auto">
             <div className="mt-[120px] w-[600px]">
               <div
                 style={{
@@ -45,11 +45,9 @@ const MerchantPerspective = () => {
                   <div className="absolute inset-x-12 bottom-5 h-10">
                     Select your time slots
                   </div>
-                  <div className="absolute right-[450px] top-[-56.48px] h-[22rem] w-[0px]">
+                  <div className="absolute right-[560px] top-[-40px] h-[22rem] w-[0px]">
                     <svg
-                      width="100%"
-                      height="100%"
-                      style={{ overflow: "visible", width: "22rem" }}
+                      style={{ overflow: "visible", width: "35rem" }}
                       viewBox="-445 -56 801.34 367.79"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -253,7 +251,6 @@ const MerchantPerspective = () => {
                         height="100%"
                         style={{
                           overflow: "visible",
-
                           width: "14rem",
                         }}
                         viewBox="0 0 17 17"
@@ -342,12 +339,10 @@ const MerchantPerspective = () => {
                 </svg>
               </div>
             </div>
-            <div className="absolute right-60 bottom-8 flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
+            <div className="absolute right-[5rem] top-[136.5rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
-                  width="100%"
-                  height="100%"
-                  style={{ overflow: "visible" }}
+                  style={{ overflow: "visible", width: "14rem", position : 'relative', left: '45px' }}
                   viewBox="0 0 328 244.03"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -884,16 +879,15 @@ const MerchantPerspective = () => {
               </div>
               <div>Sell your product</div>
             </div>
-            <div className="absolute top-[125rem] right-[6rem] flex  h-[267px] w-[268px]  text-[20px] font-bold text-slate-700">
+            <div className="absolute top-[118.5rem] right-[5rem] flex  h-[267px] w-[268px]  text-[20px] font-bold text-slate-700">
               <div className="relative flex rounded-2xl bg-white px-5 pb-24 pt-7 drop-shadow-lg">
-                <div className="absolute right-[-217px] bottom-12 flex h-10 w-96 justify-center text-center">
-                  Add your product or services
+                <div className="absolute right-[0px] bottom-6 flex h-10 w-96 justify-center text-center">
+                  Add your product or <br />
+                  services
                 </div>
                 <div className="relative h-60 w-80">
                   <svg
-                    width="100%"
-                    height="100%"
-                    style={{ overflow: "visible" }}
+                    style={{ overflow: "visible", width: "16rem", position: 'relative', bottom: '20px', left: '30px' }}
                     viewBox="0 0 328 244.03"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
