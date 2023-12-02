@@ -4,6 +4,7 @@ import Feature from "./components/Feature";
 import About from "./components/About";
 import MerchantPerspective from "./components/MerchantPerspective";
 import DownloadApp from "./components/DownloadApp";
+import ServiceOfferings from "./components/ServiceOfferings";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Feature />
       <MerchantPerspective />
       <DownloadApp/>
+      <ServiceOfferings/>
       
     </div>
   );
