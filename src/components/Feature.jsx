@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
+import yellowCircle from "../assests/Ellipse813.png";
+import orangeCircle from "../assests/Ellipse807.png";
 import vector from '../assests/Vector1.png'
 
 const Feature = () => {
@@ -8,6 +10,16 @@ const Feature = () => {
        <div className='absolute left-[42rem] top-[-4rem]'>
               <img className="h-[51rem]" src={vector} alt="" />
             </div>
+            <div className="absolute left-[75rem] top-[-2rem]">
+          <img className="h-[1rem]" src={orangeCircle} alt="" />
+        </div>
+        <div className="absolute left-[56.5rem] top-[10rem]">
+          <img className="h-[1rem]" src={yellowCircle} alt="" />
+        </div>
+      
+        <div className="absolute left-[55.5rem] top-[40rem]">
+          <img className="h-[.75rem]" src={yellowCircle} alt="" />
+        </div>
       
       <div className="mx-[100px] container">
         <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">

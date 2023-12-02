@@ -2,7 +2,6 @@
 import React from "react";
 import PlayBtn from "../assests/Polygon1.png";
 import bigCircle from "../assests/Ellipse1Outline.png";
-import orangeCircle from "../assests/Ellipse807.png";
 import yellowCircle from "../assests/Ellipse813.png";
 import aboutVector from "../assests/aboutVector.png";
 import mobile from "../assests/mobile.png";
