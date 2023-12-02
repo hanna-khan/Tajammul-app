@@ -12,7 +12,6 @@ const About = () => {
           <div className="flex container m-auto">
             <div className="flex-1">
               {" "}
-              {/* Add ml-4 for left margin */}
               <img
                 className="w-[320px] h-[430px]"
                 src="./mobile.png"
