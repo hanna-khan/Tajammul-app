@@ -5,10 +5,10 @@ import orangeCircle from "../assests/Ellipse807.png";
 const MerchantPerspective = () => {
   return (
     <div className="w-screen pb-10 relative top-[42rem] h-[750px] bg-stone-50">
-      <div className='absolute left-[43.5rem] top-[0rem]'>
-        <img className="h-[46.8rem]" src={aboutVector} alt="" />
-      </div>
-      {/* <div className="absolute left-[55rem] top-[-2rem]">
+       <div className='absolute left-[43.5rem] top-[0rem]'>
+              <img className="h-[46.8rem]" src={aboutVector} alt="" />
+            </div>
+            {/* <div className="absolute left-[55rem] top-[-2rem]">
           <img className="h-[1rem]" src={orangeCircle} alt="" />
         </div>
             <div className="absolute left-[75rem] top-[-2rem]">
@@ -233,7 +233,7 @@ const MerchantPerspective = () => {
                   </div>
                 </div>
               </div>
-
+             
               <div className="absolute left-1.5 top-16 h-4 w-4">
                 <svg
                   width="100%"
@@ -1151,11 +1151,11 @@ const MerchantPerspective = () => {
               </div>
             </div>
 
-
+          
           </div>
         </div>
       </div>
-
+     
     </div>
   );
 };

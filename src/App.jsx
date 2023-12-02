@@ -9,13 +9,13 @@ import ServiceOfferings from "./components/ServiceOfferings";
 import Footer from './components/Footer'
 function App() {
   return (
-    <div className="font-poppins">
+    <div className="font-poppins scroll-smooth">
       <Navbar/>
       <Hero />
-      {/* <About />
+      <About />
       <Feature />
       <MerchantPerspective />
-      <DownloadApp/> */}
+      <DownloadApp/>
       <ServiceOfferings/>
       <Footer/>
       

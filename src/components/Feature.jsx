@@ -1,9 +1,26 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
+import yellowCircle from "../assests/Ellipse813.png";
+import orangeCircle from "../assests/Ellipse807.png";
+import vector from '../assests/Vector1.png'
 
 const Feature = () => {
   return (
-    <div className="w-full h-[881px]">
+    <div className="w-screen pb-10 relative top-[42rem] h-[750px]">
+       <div className='absolute left-[42rem] top-[-4rem]'>
+              <img className="h-[51rem]" src={vector} alt="" />
+            </div>
+            <div className="absolute left-[75rem] top-[-2rem]">
+          <img className="h-[1rem]" src={orangeCircle} alt="" />
+        </div>
+        <div className="absolute left-[56.5rem] top-[10rem]">
+          <img className="h-[1rem]" src={yellowCircle} alt="" />
+        </div>
+      
+        <div className="absolute left-[55.5rem] top-[40rem]">
+          <img className="h-[.75rem]" src={yellowCircle} alt="" />
+        </div>
+      
       <div className="mx-[100px] container">
         <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
           Features
@@ -904,7 +921,7 @@ const Feature = () => {
                 </svg>
               </div>
             </div>
-            <div className="absolute top-[1175px] left-[25rem] flex h-[267px] w-[268px] flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+            <div className="absolute top-[250px] left-[25rem] flex h-[267px] w-[268px] flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{
@@ -1894,7 +1911,7 @@ const Feature = () => {
               </div>
               <div>Enjoy your shopping</div>
             </div>
-            <div className="absolute top-[1325px] left-[10rem] flex h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
+            <div className="absolute top-[420px] left-[10rem] flex h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
               <div className="flex flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 drop-shadow-lg">
                 <div className="h-60 w-[14rem]">
                   <svg
@@ -2805,6 +2822,7 @@ const Feature = () => {
           </div>
         </div>
       </div>
+     
     </div>
   );
 };

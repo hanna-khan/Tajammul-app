@@ -1,10 +1,31 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
+import PlayBtn from "../assests/Polygon1.png";
+import bigCircle from "../assests/Ellipse1Outline.png";
+import yellowCircle from "../assests/Ellipse813.png";
+import aboutVector from "../assests/aboutVector.png";
+import mobile from "../assests/mobile.png";
+import bag from "../assests/orangeBag.png";
 
 const About = () => {
   return (
     <>
-      <div className="w-full h-[881px] bg-stone-50">
+      <div className="w-screen pb-10 relative top-[38rem] h-[600px] bg-stone-50">
+        <div className="absolute left-[13rem] top-[-12rem]">
+          <img className="h-[49.5rem]" src={aboutVector} alt="" />
+        </div>
+        <div className="absolute left-[12.5rem] top-[-7rem]">
+          <img className="h-[1rem]" src={yellowCircle} alt="" />
+        </div>
+        <div className="absolute left-[23rem] top-[-7rem]">
+          <img className="h-[.75rem]" src={yellowCircle} alt="" />
+        </div>
+        <div className="absolute left-[38rem] top-[12rem]">
+          <img className="h-[1rem]" src={yellowCircle} alt="" />
+        </div>
+        <div className="absolute left-[28rem] top-[12.5rem]">
+          <img className="h-[.75rem]" src={yellowCircle} alt="" />
+        </div>
         <div className="mx-[100px]">
           <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
             About us
@@ -14,13 +35,13 @@ const About = () => {
               {" "}
               <img
                 className="w-[320px] h-[430px]"
-                src="./mobile.png"
+                src={mobile}
                 alt="mobile image"
               />
             </div>
             <div className="flex-1">
               <div className="mt-[120px] w-[600px] flex">
-                <img src="./orangeBag.png" alt="" />
+                <img src={bag} alt="" />
                 <span className="ml-2 text-[#273B60] text-[55px] font-semibold text-center">
                   tajammul.app
                 </span>
