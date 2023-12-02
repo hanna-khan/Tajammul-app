@@ -3,7 +3,7 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div className="w-screen pb-10 relative top-[42rem] h-[650px]">
+    <div className="w-screen pb-10 relative top-[42rem] h-[750px]">
       <div className="mx-[100px] container">
         <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
           Features

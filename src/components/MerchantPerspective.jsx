@@ -2,7 +2,7 @@ import React from "react";
 
 const MerchantPerspective = () => {
   return (
-    <div className="w-screen pb-10 relative top-[42rem] h-[650px] bg-stone-50">
+    <div className="w-screen pb-10 relative top-[42rem] h-[750px] bg-stone-50">
       <div className="ml-[100px] mr-[100px] container">
         <div className="flex m-auto">
           <div className="flex-1 min-w-[50%] m-auto">
@@ -339,7 +339,7 @@ const MerchantPerspective = () => {
                 </svg>
               </div>
             </div>
-            <div className="z-0 absolute right-[5rem] top-[136.5rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
+            <div className="z-0 absolute right-[7rem] top-[26rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{
@@ -885,7 +885,7 @@ const MerchantPerspective = () => {
               <div>Sell your product</div>
             </div>
 
-            <div className="z-0 absolute right-[5rem] top-[118.5rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
+            <div className="z-0 absolute right-[7rem] top-[7rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{
