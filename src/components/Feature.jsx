@@ -1,9 +1,14 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
+import vector from '../assests/Vector1.png'
 
 const Feature = () => {
   return (
     <div className="w-screen pb-10 relative top-[42rem] h-[750px]">
+       <div className='absolute left-[42rem] top-[-4rem]'>
+              <img className="h-[51rem]" src={vector} alt="" />
+            </div>
+      
       <div className="mx-[100px] container">
         <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
           Features
@@ -2805,6 +2810,7 @@ const Feature = () => {
           </div>
         </div>
       </div>
+     
     </div>
   );
 };

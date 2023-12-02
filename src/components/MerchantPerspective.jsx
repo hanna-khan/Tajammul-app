@@ -1,8 +1,12 @@
 import React from "react";
+import aboutVector from '../assests/aboutVector.png'
 
 const MerchantPerspective = () => {
   return (
     <div className="w-screen pb-10 relative top-[42rem] h-[750px] bg-stone-50">
+       <div className='absolute left-[43.5rem] top-[0rem]'>
+              <img className="h-[46.8rem]" src={aboutVector} alt="" />
+            </div>
       <div className="ml-[100px] mr-[100px] container">
         <div className="flex m-auto">
           <div className="flex-1 min-w-[50%] m-auto">
@@ -1223,6 +1227,7 @@ const MerchantPerspective = () => {
           </div>
         </div>
       </div>
+     
     </div>
   );
 };
