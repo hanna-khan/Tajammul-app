@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="w-full h-[881px] bg-stone-50">
+      <div className="w-screen pb-10 relative top-[42rem] h-[600px] bg-stone-50">
         <div className="mx-[100px]">
           <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
             About us

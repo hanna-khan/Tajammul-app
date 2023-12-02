@@ -2,7 +2,7 @@ import React from "react";
 
 const MerchantPerspective = () => {
   return (
-    <div className="w-full h-[881px] bg-stone-50">
+    <div className="w-screen pb-10 relative top-[42rem] h-[650px] bg-stone-50">
       <div className="ml-[100px] mr-[100px] container">
         <div className="flex m-auto">
           <div className="flex-1 min-w-[50%] m-auto">
