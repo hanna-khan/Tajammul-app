@@ -1,8 +1,19 @@
 import React from "react";
-
+import aboutVector from '../assests/aboutVector.png'
+import yellowCircle from "../assests/Ellipse813.png";
+import orangeCircle from "../assests/Ellipse807.png";
 const MerchantPerspective = () => {
   return (
-    <div className="w-full h-[881px] bg-stone-50">
+    <div className="w-screen pb-10 relative top-[42rem] h-[750px] bg-stone-50">
+      <div className='absolute left-[43.5rem] top-[0rem]'>
+        <img className="h-[46.8rem]" src={aboutVector} alt="" />
+      </div>
+      {/* <div className="absolute left-[55rem] top-[-2rem]">
+          <img className="h-[1rem]" src={orangeCircle} alt="" />
+        </div>
+            <div className="absolute left-[75rem] top-[-2rem]">
+          <img className="h-[1rem]" src={yellowCircle} alt="" />
+        </div> */}
       <div className="ml-[100px] mr-[100px] container">
         <div className="flex m-auto">
           <div className="flex-1 min-w-[50%] m-auto">
@@ -222,86 +233,7 @@ const MerchantPerspective = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-36 right-64 flex h-96 w-14 flex-col items-center gap-y-96">
-                <div className="flex items-center">
-                  <div className="h-9 w-9">
-                    <svg
-                      width="100%"
-                      height="100%"
-                      style={{
-                        overflow: "visible",
-                        width: "15rem",
-                        position: "relative",
-                        right: "48px",
-                      }}
-                      viewBox="0 0 35.87 35.87"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M18.5109 5.00556C11.3505 5.00556 5.52509 10.8309 5.52509 17.9913C5.52509 25.1517 11.3505 30.9771 18.5109 30.9771C25.6712 30.9771 31.4966 25.1517 31.4966 17.9913C31.4966 10.8309 25.6712 5.00556 18.5109 5.00556ZM18.5109 0.0585938C28.4148 0.0585938 36.4436 8.08735 36.4436 17.9913C36.4436 27.8953 28.4148 35.9241 18.5109 35.9241C8.60688 35.9241 0.578125 27.8953 0.578125 17.9913C0.578125 8.08735 8.60688 0.0585938 18.5109 0.0585938Z"
-                        fill="#FDCE0C"
-                      />
-                    </svg>
-                  </div>
-                  <div className="flex h-4 w-1 items-center justify-end">
-                    <div className="-ml-3.5 h-4 w-4">
-                      <svg
-                        width="100%"
-                        height="100%"
-                        style={{
-                          overflow: "visible",
-                          width: "14rem",
-                        }}
-                        viewBox="0 0 17 17"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <circle
-                          cx="8.94336"
-                          cy="8.55859"
-                          r="8.5"
-                          fill="#F16427"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex items-center self-stretch">
-                  <div className="h-5 w-5">
-                    <svg
-                      width="100%"
-                      height="100%"
-                      style={{ overflow: "visible" }}
-                      viewBox="-4 -2 18.64 19.42"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.0431272 10.7099L5.42174 0.302168L11.7196 11.6638L0.0431272 10.7099Z"
-                        fill="#FDCE0C"
-                      />
-                    </svg>
-                  </div>
-                  <div className="flex h-9 w-9 items-center justify-end">
-                    <div className="ml-[-2.1px] h-9 w-9">
-                      <svg
-                        width="100%"
-                        height="100%"
-                        style={{ overflow: "visible" }}
-                        viewBox="0 0 35.87 35.87"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M18.8802 30.9971C26.0406 30.9971 31.866 25.1717 31.866 18.0114C31.866 10.851 26.0406 5.02558 18.8802 5.02558C11.7199 5.02558 5.89447 10.851 5.89447 18.0114C5.89447 25.1717 11.7199 30.9971 18.8802 30.9971ZM18.8802 35.9441C8.97627 35.9441 0.94751 27.9153 0.94751 18.0114C0.94751 8.10737 8.97627 0.0786131 18.8802 0.0786132C28.7842 0.0786132 36.813 8.10737 36.813 18.0114C36.813 27.9153 28.7842 35.9441 18.8802 35.9441Z"
-                          fill="#F16427"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
               <div className="absolute left-1.5 top-16 h-4 w-4">
                 <svg
                   width="100%"
@@ -339,7 +271,7 @@ const MerchantPerspective = () => {
                 </svg>
               </div>
             </div>
-            <div className="z-0 absolute right-[5rem] top-[136.5rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
+            <div className="z-0 absolute right-[7rem] top-[26rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{
@@ -884,23 +816,8 @@ const MerchantPerspective = () => {
               </div>
               <div>Sell your product</div>
             </div>
-<<<<<<< HEAD
-            <div className="absolute top-[118.5rem] right-[5rem] flex  h-[267px] w-[268px]  text-[20px] font-bold text-slate-700">
-              <div className="relative flex rounded-2xl bg-white px-5 pb-24 pt-7 drop-shadow-lg">
-                <div className="absolute right-[0px] bottom-6 flex h-10 w-96 justify-center text-center">
-                  Add your product or <br />
-                  services
-                </div>
-                <div className="relative h-60 w-76">
-                  <svg
-                    style={{ overflow: "visible", width: "16rem", position: 'relative', bottom: '20px', left: '30px' }}
-                    viewBox="0 0 328 244.03"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-=======
 
-            <div className="z-0 absolute right-[5rem] top-[118.5rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
+            <div className="z-0 absolute right-[7rem] top-[7rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{
@@ -1051,7 +968,6 @@ const MerchantPerspective = () => {
                     <mask id="path-31-inside-1_24_312" fill="white">
                       <path d="M160.903 189.648C169.874 189.648 177.147 196.807 177.147 205.638C177.147 214.469 169.874 221.628 160.903 221.628C151.932 221.628 144.659 214.469 144.659 205.638C144.659 196.807 151.932 189.648 160.903 189.648Z" />
                     </mask>
->>>>>>> a859bde6ece9c6936f29648f638efba4e4367ef4
                     <path
                       d="M160.903 189.648C169.874 189.648 177.147 196.807 177.147 205.638C177.147 214.469 169.874 221.628 160.903 221.628C151.932 221.628 144.659 214.469 144.659 205.638C144.659 196.807 151.932 189.648 160.903 189.648Z"
                       fill="#273B60"
@@ -1235,10 +1151,11 @@ const MerchantPerspective = () => {
               </div>
             </div>
 
-          
+
           </div>
         </div>
       </div>
+
     </div>
   );
 };

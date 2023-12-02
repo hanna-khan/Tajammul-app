@@ -6,7 +6,7 @@ import About from "./components/About";
 import MerchantPerspective from "./components/MerchantPerspective";
 import DownloadApp from "./components/DownloadApp";
 import ServiceOfferings from "./components/ServiceOfferings";
-
+import Footer from './components/Footer'
 function App() {
   return (
     <div className="font-poppins">
@@ -15,8 +15,9 @@ function App() {
       {/* <About />
       <Feature />
       <MerchantPerspective />
-      <DownloadApp/>
-      <ServiceOfferings/> */}
+      <DownloadApp/> */}
+      <ServiceOfferings/>
+      <Footer/>
       
     </div>
   );
