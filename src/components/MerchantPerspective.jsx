@@ -884,21 +884,6 @@ const MerchantPerspective = () => {
               </div>
               <div>Sell your product</div>
             </div>
-<<<<<<< HEAD
-            <div className="absolute top-[118.5rem] right-[5rem] flex  h-[267px] w-[268px]  text-[20px] font-bold text-slate-700">
-              <div className="relative flex rounded-2xl bg-white px-5 pb-24 pt-7 drop-shadow-lg">
-                <div className="absolute right-[0px] bottom-6 flex h-10 w-96 justify-center text-center">
-                  Add your product or <br />
-                  services
-                </div>
-                <div className="relative h-60 w-76">
-                  <svg
-                    style={{ overflow: "visible", width: "16rem", position: 'relative', bottom: '20px', left: '30px' }}
-                    viewBox="0 0 328 244.03"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-=======
 
             <div className="z-0 absolute right-[5rem] top-[118.5rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
@@ -1051,7 +1036,6 @@ const MerchantPerspective = () => {
                     <mask id="path-31-inside-1_24_312" fill="white">
                       <path d="M160.903 189.648C169.874 189.648 177.147 196.807 177.147 205.638C177.147 214.469 169.874 221.628 160.903 221.628C151.932 221.628 144.659 214.469 144.659 205.638C144.659 196.807 151.932 189.648 160.903 189.648Z" />
                     </mask>
->>>>>>> a859bde6ece9c6936f29648f638efba4e4367ef4
                     <path
                       d="M160.903 189.648C169.874 189.648 177.147 196.807 177.147 205.638C177.147 214.469 169.874 221.628 160.903 221.628C151.932 221.628 144.659 214.469 144.659 205.638C144.659 196.807 151.932 189.648 160.903 189.648Z"
                       fill="#273B60"

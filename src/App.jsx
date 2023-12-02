@@ -9,14 +9,14 @@ import ServiceOfferings from "./components/ServiceOfferings";
 
 function App() {
   return (
-    <div className="font-poppins">
-      <Navbar/>
-      <Hero />
-      {/* <About />
+    <div className="font-poppins scroll-smooth">
+      {/* <Navbar/>
+      <Hero /> */}
+      <About />
       <Feature />
       <MerchantPerspective />
       <DownloadApp/>
-      <ServiceOfferings/> */}
+      <ServiceOfferings/>
       
     </div>
   );
