@@ -14,7 +14,6 @@ const DownloadApp = () => {
                   <div className="text-[#273B60] text-[42px] font-extrabold capitalize leading-[4.5rem] text-left">
                     Download App
                   </div>
-
                   <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700">
                     It's all a click away! Just download our mobile application
                     to enjoy hassle-free delivery of your products and services.

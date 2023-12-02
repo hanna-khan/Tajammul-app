@@ -904,7 +904,7 @@ const Feature = () => {
                 </svg>
               </div>
             </div>
-            <div className="absolute top-[1175px] left-[25rem] flex h-[267px] w-[268px] flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+            <div className="absolute top-[250px] left-[25rem] flex h-[267px] w-[268px] flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{
@@ -1894,7 +1894,7 @@ const Feature = () => {
               </div>
               <div>Enjoy your shopping</div>
             </div>
-            <div className="absolute top-[1325px] left-[10rem] flex h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
+            <div className="absolute top-[420px] left-[10rem] flex h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
               <div className="flex flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 drop-shadow-lg">
                 <div className="h-60 w-[14rem]">
                   <svg
