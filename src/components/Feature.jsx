@@ -2794,7 +2794,7 @@ const Feature = () => {
                 Perspective
               </div>
             </div>
-            <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700">
+            <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[75%]">
               user, you can browse down to a variety of restaurants and grocery
               stores and pick the one that best suits your needs. You will be
               able to choose from a variety of alternatives. You'll also get

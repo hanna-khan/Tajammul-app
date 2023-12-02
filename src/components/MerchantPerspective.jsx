@@ -30,7 +30,7 @@ const MerchantPerspective = () => {
                 Perspective
               </div>
             </div>
-            <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700">
+            <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[80%]">
               As a merchant, you will register your company as well as the
               products or services it provides. Then, in the booking calendar
               section, you must include the availability and time slots of those
@@ -39,17 +39,17 @@ const MerchantPerspective = () => {
             </div>
           </div>
           <div className="flex-1 min-w-[50%]">
-            <div className="bg-vector relative flex self-stretch bg-cover bg-center py-64 pl-10 pr-44 text-[20px] font-bold text-slate-700">
+            <div className="bg-vector relative flex self-stretch bg-cover bg-center py-64 pr-44 text-[20px] font-bold text-slate-700">
               <div className="relative flex self-stretch">
                 <div className="relative flex  h-[267px] w-[268px]  rounded-2xl bg-white drop-shadow-lg">
                   <div className="absolute inset-x-12 bottom-5 h-10">
                     Select your time slots
                   </div>
-                  <div className="absolute left-[-445.25px] top-[-56.48px] h-96 w-[801px]">
+                  <div className="absolute right-[450px] top-[-56.48px] h-[22rem] w-[0px]">
                     <svg
                       width="100%"
                       height="100%"
-                      style={{ overflow: "visible", width: "15rem" }}
+                      style={{ overflow: "visible", width: "22rem" }}
                       viewBox="-445 -56 801.34 367.79"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
