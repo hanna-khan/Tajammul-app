@@ -2787,7 +2787,7 @@ const Feature = () => {
             </div>
           </div>
         </div>
-        <div className="sm:top-[12rem] flex-1 left-[44rem] top-[8.24rem] min-w-[50%] relative sm:left-[50rem] flex-wrap max-w-[30rem] sm:max-w-[50rem]">
+        <div className="flex-1 top-[8.24rem] min-w-[50%] relative left-[44rem] flex-wrap max-w-[30rem] sm:max-w-[50rem]">
           <div>
             <div
               className="text-[#F16427] text-[52px] font-extrabold capitalize max-lg:text-4xl text-left"
@@ -2806,7 +2806,7 @@ const Feature = () => {
               Perspective
             </div>
           </div>
-          <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[50%] sm:max-w-[75%] sm:text-lg">
+          <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[50%] sm:text-lg">
             user, you can browse down to a variety of restaurants and grocery
             stores and pick the one that best suits your needs. You will be able
             to choose from a variety of alternatives. You'll also get access to

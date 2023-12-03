@@ -6,9 +6,9 @@ const MerchantPerspective = () => {
       <div className="absolute left-[43.5rem] top-[0rem]">
         <img className="h-[46.8rem]" src={aboutVector} alt="" />
       </div>
-      <div className="ml-[100px] mr-[100px] container">
+      <div className="container">
         <div className="flex m-auto">
-          <div className="flex-1 min-w-[50%] m-auto">
+          <div className="flex-1 min-w-[50%] m-auto ml-[4rem]">
             <div className="w-[600px]">
               <div
                 className="text-[#F16427] font-extrabold text-[52px] max-lg:text-5xl"
