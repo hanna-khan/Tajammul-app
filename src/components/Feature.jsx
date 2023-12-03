@@ -6,7 +6,7 @@ import vector from "../assests/Vector1.png";
 
 const Feature = () => {
   return (
-    <div className="w-screen pb-10 relative top-[42rem] h-[750px] max-[940px]:h-[94rem]">
+    <div className="w-screen pb-10 relative top-[35rem] h-[750px] max-[940px]:h-[94rem]">
       <div className="absolute left-[42rem] top-[-4rem] max-lg:hidden">
         <img className="h-[51rem] max-lg:hidden" src={vector} alt="" />
       </div>
@@ -22,7 +22,7 @@ const Feature = () => {
       </div>
 
       <div className="container">
-        <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
+        <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center max-lg:text-5xl">
           Features
         </div>
           <div className="xl-flex-1 xl-min-w-[50%]">
@@ -2788,29 +2788,24 @@ const Feature = () => {
           <div className="max-[940px]:top-[58rem] flex-1 left-[44rem] top-[8.24rem] min-w-[50%] relative  max-[1130px]:left-[4rem] max-[1130px]:top-[18rem] flex-wrap max-w-[30rem] max-[1130px]:max-w-[50rem]">
             <div>
               <div
+              className="text-[#F16427] text-[52px] font-extrabold capitalize max-lg:text-4xl text-left"
                 style={{
-                  color: "#F16427",
-                  fontSize: 52,
-                  fontWeight: "800",
-                  textTransform: "capitalize",
                   wordWrap: "break-word",
                 }}
               >
                 User
               </div>
               <div
-                style={{
-                  color: "#FDCE0C",
-                  fontSize: 69,
-                  fontWeight: "800",
-                  textTransform: "capitalize",
-                  wordWrap: "break-word",
-                }}
+               className="text-[#FDCE0C] text-[69px] font-extrabold capitalize max-lg:text-5xl text-left"
+               style={{
+                 wordWrap: "break-word",
+               }}
+               
               >
                 Perspective
               </div>
             </div>
-            <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[75%]">
+            <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[75%] max-lg:text-lg">
               user, you can browse down to a variety of restaurants and grocery
               stores and pick the one that best suits your needs. You will be
               able to choose from a variety of alternatives. You'll also get

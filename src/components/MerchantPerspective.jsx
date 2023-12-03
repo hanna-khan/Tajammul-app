@@ -4,7 +4,7 @@ import yellowCircle from "../assests/Ellipse813.png";
 import orangeCircle from "../assests/Ellipse807.png";
 const MerchantPerspective = () => {
   return (
-    <div className="w-screen pb-10 relative top-[42rem] h-[750px] bg-stone-50">
+    <div className="w-screen pb-10 relative top-[48rem] h-[750px] bg-stone-50">
       <div className="absolute left-[43.5rem] top-[0rem]">
         <img className="h-[46.8rem]" src={aboutVector} alt="" />
       </div>
@@ -14,31 +14,23 @@ const MerchantPerspective = () => {
           <div className="flex-1 min-w-[50%] m-auto">
             <div className="w-[600px]">
               <div
-                className="max-lg:text-5xl"
+                className="text-[#F16427] font-extrabold text-[52px] max-lg:text-5xl"
                 style={{
-                  color: "#F16427",
-                  fontSize: 52,
-                  fontWeight: "800",
-                  textTransform: "capitalize",
                   wordWrap: "break-word",
                 }}
               >
                 Merchant
               </div>
               <div
-                className="max-lg:text-5xl"
+                className="max-lg:text-5xl text-[#FDCE0C] text-[69px] font-extrabold"
                 style={{
-                  color: "#FDCE0C",
-                  fontSize: 69,
-                  fontWeight: "800",
-                  textTransform: "capitalize",
                   wordWrap: "break-word",
                 }}
               >
                 Perspective
               </div>
             </div>
-            <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[80%]">
+            <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[75%] max-lg:text-lg">
               As a merchant, you will register your company as well as the
               products or services it provides. Then, in the booking calendar
               section, you must include the availability and time slots of those

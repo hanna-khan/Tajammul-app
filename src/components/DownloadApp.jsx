@@ -5,7 +5,7 @@ import React from "react";
 const DownloadApp = () => {
   return (
     <>
-      <div className="w-screen pb-10 relative top-[42rem] flex justify-center items-center h-[500px]">
+      <div className="w-screen pb-10 relative top-[42rem] flex justify-center items-center h-[900px]">
         <div className="w-full h-[250px] bg-[#FDCE0C] overflow-visible">
           <div>
             <div className="container m-auto justify-around">
