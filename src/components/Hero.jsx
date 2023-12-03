@@ -15,20 +15,20 @@ import MobileBg from '../assests/bg.png'
 const Hero = () => {
   return (
 
-    <div className='w-screen relative font-poppins'>
+    <div className='w-screen relative top-[5rem] font-poppins'>
 
 
       {/* MAIN HERO SECTION CODE  */}
-      <div className='flex'>
+      <div className='lg:flex justify-between w-[screen]'>
 
         {/* LEFT SECTION  */}
-        <div className=' absolute top-[7rem] left-[9rem]'>
+        <div className='flex-1 pl-[2rem] sm:pl-[6.7rem] lg:mb-0 mb-[2rem]'>
 
           {/* TEXT  */}
-          <div>
+          <div className=''>
             <h1 className='text-[#F16427] text-3xl font-bold mb-2'>Life</h1>
             <h1 className='text-[#fdce0c] text-4xl font-bold mb-2'>Made Easy</h1>
-            <p className='text-[#273b60] text-sm mb-2 w-[40%] tracking-wide'>Tajammul.app is a complete eCommerce solution that aims to ease your life by providing you with online delivery services for food, grocery and other essentials. Not only do we serve you with the best of our quality products, but with Tajammul.app you can book your services anytime and anywhere, by tracking the availability of the restaurants, clinics and salons. You can book both, as a merchant and get profits, as well as book as a consumer and avail offered services.</p>
+            <p className='text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide'>Tajammul.app is a complete eCommerce solution that aims to ease your life by providing you with online delivery services for food, grocery and other essentials. Not only do we serve you with the best of our quality products, but with Tajammul.app you can book your services anytime and anywhere, by tracking the availability of the restaurants, clinics and salons. You can book both, as a merchant and get profits, as well as book as a consumer and avail offered services.</p>
           </div>
 
           {/* BUTTONS  */}
@@ -41,54 +41,61 @@ const Hero = () => {
 
         {/* RIGHT SECTION  */}
 
-        <div className=' w-screen relative'>
+        <div className='flex-1 relative  flex justify-center lg:justify-end'>
 
-          {/* MOBILE BACKGROUND BLACK */}
-          <div className='absolute right-[12rem] top-[7rem] pb-[1rem]'>
-            <img src={MobileBg} alt="" className='h-[30rem]' />
+          <div className='relative mr-0 lg:mr-[8rem]'>
+
+            {/* MOBILE BACKGROUND BLACK */}
+            <div>
+              <img src={MobileBg} alt="" className='lg:h-[24rem] h-[30rem]' />
+            </div>
+
+            {/* MOBILE MAIN SCREEN */}
+            <div className='absolute top-4 left-3'>
+              <img src={MobileScreen} alt="" className='lg:h-[22rem] h-[28rem]' />
+            </div>
+
           </div>
 
-          {/* MOBILE MAIN SCREEN */}
-          <div className='absolute right-[12.7rem] top-[8rem] pb-[1rem]'>
-            <img src={MobileScreen} alt="" className='h-[28rem]' />
-          </div>
+          {/* LEFT DECORATOR  */}
 
-          {/* LEFT SIDE DECORATERS */}
+          <div className='lg:block hidden'>
 
-          <div>
-            <div className='absolute right-[28.5rem] top-[7.3rem]'>
+            <div className='absolute right-[20rem] top-[1rem]'>
               <img src={Message} alt="" />
             </div>
 
-            <div className='absolute right-[27rem] top-[12.3rem]'>
-              <img src={LeftCard} alt="" />
+            <div className='absolute right-[20rem] top-[6rem]'>
+              <img src={LeftCard} alt="" className='h-[10rem]' />
             </div>
 
-            <div className='absolute right-[22.5rem] top-[30.3rem]'>
-              <img src={MobileNav} alt="" />
+            <div className='absolute right-[15rem] top-[17.5rem]'>
+              <img src={MobileNav} alt="" className='' />
             </div>
+
           </div>
 
           {/* RIGHT SIDE DECORATORS  */}
-          <div>
+          <div className='lg:block hidden'>
 
-            <div className='absolute right-[3.5rem] top-[13.3rem]'>
+            <div className='absolute right-[7px] top-[4rem]'>
               <img src={Message2} alt="" />
             </div>
-
-            <div className='absolute right-[4.7rem] top-[14.5rem] font-bold text-white'>
+            <div className='absolute right-[2rem] top-[5em] font-bold text-white'>
               <p>Products</p>
             </div>
 
-            <div className='absolute right-[3rem] top-[18.3rem]'>
-              <img src={RightCard} alt="" className='h-[14rem]' />
+
+            <div className='absolute right-[20px] top-[10rem]'>
+              <img src={RightCard} alt="" className='h-[10rem]' />
             </div>
 
-            <div className='absolute right-[7.7rem] top-[36.5rem]'>
+            <div className='absolute right-[4rem] top-[23.5rem]'>
               <img src={Line} alt="" className='' />
             </div>
 
           </div>
+
         </div>
 
       </div>
