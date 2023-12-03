@@ -26,8 +26,8 @@ const Feature = () => {
           Features
         </div>
 
-        <div className="xl-flex-1 xl-min-w-[50%]">
-          <div className="absolute flex left-[10rem] top-[10rem] max-[940px]:block h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+        <div className="flex-1 xl-min-w-[50%]">
+          <div className="absolute block sm:flex left-[10rem] top-[10rem] max-[940px]:block h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
             <div className="absolute bottom-8 right-16 flex h-[14px] w-[8rem] justify-center text-center">
               Discover
             </div>
@@ -921,7 +921,7 @@ const Feature = () => {
               </svg>
             </div>
           </div>
-          <div className="absolute flex left-[10rem] top-[22rem] sm:top-[250px] sm:left-[25rem] h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+          <div className="absolute block sm:flex left-[10rem] top-[28rem] sm:top-[250px] sm:left-[25rem] h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
             <div className="relative h-60 w-80">
               <svg
 
@@ -1912,9 +1912,9 @@ const Feature = () => {
               Enjoy your shopping
             </div>
           </div>
-          <div className="absolute flex top-[650px] sm:top-[450px] left-[10rem] h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
+          <div className="absolute block sm:flex top-[46rem] sm:top-[450px] left-[10rem] h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
             <div className="flex flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 drop-shadow-lg ">
-              <div className="h-[10rem]">
+              <div className="h-[12rem]">
                 <svg
                   style={{
                     overflow: "visible",
@@ -2781,13 +2781,13 @@ const Feature = () => {
                   />
                 </svg>
               </div>
-              <div className="absolute bottom-[50px] right-[2rem] flex h-[5px] justify-center text-center">
+              <div className="absolute bottom-[35px] right-[2rem] flex h-[5px] justify-center text-center">
                 Make the Payment
               </div>
             </div>
           </div>
         </div>
-        <div className="max-[940px]:top-[58rem] flex-1 left-[44rem] top-[8.24rem] min-w-[50%] relative  max-[1130px]:left-[4rem] max-[1130px]:top-[18rem] flex-wrap max-w-[30rem] max-[1130px]:max-w-[50rem]">
+        <div className="sm:top-[12rem] flex-1 left-[44rem] top-[8.24rem] min-w-[50%] relative sm:left-[50rem] flex-wrap max-w-[30rem] sm:max-w-[50rem]">
           <div>
             <div
               className="text-[#F16427] text-[52px] font-extrabold capitalize max-lg:text-4xl text-left"
@@ -2806,7 +2806,7 @@ const Feature = () => {
               Perspective
             </div>
           </div>
-          <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[75%] max-lg:text-lg">
+          <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[50%] sm:max-w-[75%] sm:text-lg">
             user, you can browse down to a variety of restaurants and grocery
             stores and pick the one that best suits your needs. You will be able
             to choose from a variety of alternatives. You'll also get access to
