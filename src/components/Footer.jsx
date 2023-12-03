@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube } from "re
 
 const Footer = () => {
   return (
-    <div className=' w-[100vw] relative top-[100vh] font-poppins'>
+    <div className=' w-[100vw] relative top-[55vh] font-poppins'>
 
       {/* UPPER PART  */}
       <div className='p-3 mt-8 mb-2'>
@@ -18,7 +18,7 @@ const Footer = () => {
 
         {/* UPPER EMAIL  */}
         <div className='text-center pt-4'>
-          <p className='text-[#273B60]'>info@tajammul.pk</p>
+          <p className='text-[#273B60]'>info@tajammul.app</p>
         </div>
 
         {/* MAIN LINKS  */}
@@ -26,7 +26,7 @@ const Footer = () => {
 
           <div>
             <p className='font-bold mb-2'>Contact Us</p>
-            <p>@ info@tajammul.pk</p>
+            <p>@ info@tajammul.app</p>
           </div>
 
           <div>

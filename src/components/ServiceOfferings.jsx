@@ -12,7 +12,7 @@ import VegImage from '../assests/vegscreen.png'
 const ServiceOfferings = () => {
   return (
 
-    <div className=" relative top-[100vh] w-screen flex justify-center items-center flex-col font-poppins">
+    <div className=" relative top-[55vh] w-screen flex justify-center items-center flex-col font-poppins">
 
       {/* UPPER BOX  */}
       <div className="flex justify-between items-center w-[100%] h-fit bg-[#F8F8F8]">
@@ -20,7 +20,7 @@ const ServiceOfferings = () => {
         <div className="flex-1 pl-[10rem]">
           <h1 className="text-2xl mb-2 font-semibold text-[#F16427]">Services</h1>
           <h1 className="text-3xl mb-2 font-semibold text-[#FDCE0C]">Offerings</h1>
-          <p className="text-sm font-semibold text-[#283D4B] w-[80%]">Are you tired of going to service stations only to discover that they are all full and having to return without getting your services?Tajammul.pk saves the day by allowing you to pre-book your services based on their availability. We keep an updated calendar so that we can provide you with the best possible services. You can now book a time slot and get your services. We offer salon, clinical, catering, decoration, auto mechanic, and plumbing services, as well as the option of hiring labor or maids for home services. Save yourself hours of waiting in lines by scheduling your services according to your availability.</p>
+          <p className="text-sm font-semibold text-[#283D4B] w-[80%]">Are you tired of going to service stations only to discover that they are all full and having to return without getting your services?Tajammul.app saves the day by allowing you to pre-book your services based on their availability. We keep an updated calendar so that we can provide you with the best possible services. You can now book a time slot and get your services. We offer salon, clinical, catering, decoration, auto mechanic, and plumbing services, as well as the option of hiring labor or maids for home services. Save yourself hours of waiting in lines by scheduling your services according to your availability.</p>
         </div>
 
         <div className="flex-1 relative flex justify-center items-center bg-gradient-to-br from-blue-800 to-blue-900 h-[25rem] pt-3">
