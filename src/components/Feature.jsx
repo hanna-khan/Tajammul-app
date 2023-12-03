@@ -25,7 +25,6 @@ const Feature = () => {
         <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
           Features
         </div>
-        <div>
           <div className="xl-flex-1 xl-min-w-[50%]">
             <div className="max-[730px]:w-[40%]  max-[730px]:m-auto absolute left-[10rem] max-[800px]:left-[16rem] max-[1130px]:left-[4rem] max-[940px]:left-[20rem] max-[940px]:block flex h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
               <div className="absolute bottom-8 right-16 flex h-[14px] w-[8rem] justify-center text-center">
@@ -1907,7 +1906,7 @@ const Feature = () => {
                   />
                 </svg>
               </div>
-              <div className="absolute bottom-[60px] right-16 flex h-[14px] w-[8rem] justify-center text-center">
+              <div className="absolute bottom-[0px] right-[2rem] flex h-[45px] justify-center text-center">
                 Enjoy your shopping
               </div>
             </div>
@@ -2780,7 +2779,7 @@ const Feature = () => {
                     />
                   </svg>
                 </div>
-                <div className="absolute bottom-[50px] right-16 flex h-[14px] w-[8rem] justify-center text-center">
+                <div className="absolute bottom-[50px] right-[2rem] flex h-[5px] justify-center text-center">
                   Make the Payment
                 </div>
               </div>
@@ -2821,7 +2820,6 @@ const Feature = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };
