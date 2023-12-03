@@ -31,10 +31,10 @@ const About = () => {
             About us
           </div>
           <div className="flex container m-auto flex-wrap">
-            <div className="flex-1 max-w-[50%]">
+            <div className="flex-1 max-w-[50%] max-[786px]:m-auto max-[786px]:block">
               {" "}
               <img
-                className="w-[320px] h-[430px] max-w-[900px]:h-[380] max-w-[900px]:w-[280]"
+                className="w-[20rem] h-[28rem] max-[786px]:h-[22rem] max-[786px]:w-[16rem]"
                 src={mobile}
                 alt="mobile image"
               />

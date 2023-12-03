@@ -1,24 +1,20 @@
 import React from "react";
-import aboutVector from '../assests/aboutVector.png'
+import aboutVector from "../assests/aboutVector.png";
 import yellowCircle from "../assests/Ellipse813.png";
 import orangeCircle from "../assests/Ellipse807.png";
 const MerchantPerspective = () => {
   return (
     <div className="w-screen pb-10 relative top-[42rem] h-[750px] bg-stone-50">
-       <div className='absolute left-[43.5rem] top-[0rem]'>
-              <img className="h-[46.8rem]" src={aboutVector} alt="" />
-            </div>
-            {/* <div className="absolute left-[55rem] top-[-2rem]">
-          <img className="h-[1rem]" src={orangeCircle} alt="" />
-        </div>
-            <div className="absolute left-[75rem] top-[-2rem]">
-          <img className="h-[1rem]" src={yellowCircle} alt="" />
-        </div> */}
+      <div className="absolute left-[43.5rem] top-[0rem]">
+        <img className="h-[46.8rem]" src={aboutVector} alt="" />
+      </div>
+
       <div className="ml-[100px] mr-[100px] container">
         <div className="flex m-auto">
           <div className="flex-1 min-w-[50%] m-auto">
-            <div className="mt-[120px] w-[600px]">
+            <div className="w-[600px]">
               <div
+                className="max-lg:text-5xl"
                 style={{
                   color: "#F16427",
                   fontSize: 52,
@@ -30,6 +26,7 @@ const MerchantPerspective = () => {
                 Merchant
               </div>
               <div
+                className="max-lg:text-5xl"
                 style={{
                   color: "#FDCE0C",
                   fontSize: 69,
@@ -233,7 +230,7 @@ const MerchantPerspective = () => {
                   </div>
                 </div>
               </div>
-             
+
               <div className="absolute left-1.5 top-16 h-4 w-4">
                 <svg
                   width="100%"
@@ -1150,12 +1147,9 @@ const MerchantPerspective = () => {
                 services
               </div>
             </div>
-
-          
           </div>
         </div>
       </div>
-     
     </div>
   );
 };

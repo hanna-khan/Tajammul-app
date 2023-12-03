@@ -7,27 +7,28 @@ import vector from '../assests/Vector1.png'
 const Feature = () => {
   return (
     <div className="w-screen pb-10 relative top-[42rem] h-[750px]">
-       <div className='absolute left-[42rem] top-[-4rem] max-[1000px]:hidden'>
-              <img className="h-[51rem]" src={vector} alt="" />
+       <div className='absolute left-[42rem] top-[-4rem] max-lg:hidden'>
+              <img className="h-[51rem] max-lg:hidden" src={vector} alt="" />
             </div>
-            <div className="absolute left-[75rem] top-[-2rem] max-[1000px]:hidden">
+            <div className="absolute left-[75rem] top-[-2rem] max-lg:hidden">
           <img className="h-[1rem]" src={orangeCircle} alt="" />
         </div>
-        <div className="absolute left-[56.5rem] top-[10rem] max-[1000px]:hidden">
+        <div className="absolute left-[56.5rem] top-[10rem] max-lg:hidden">
           <img className="h-[1rem]" src={yellowCircle} alt="" />
         </div>
       
-        <div className="absolute left-[55.5rem] top-[40rem] max-[1000px]:hidden">
+        <div className="absolute left-[55.5rem] top-[40rem] max-lg:hidden">
           <img className="h-[.75rem]" src={yellowCircle} alt="" />
         </div>
       
       <div className="container">
-        <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
+        <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center max-lg:text-5xl">
           Features
         </div>
         <div className="flex m-auto max-[786px]:flex-col">
-          <div className="flex-1 min-w-[50%]">
-            <div className="absolute left-[10rem] flex h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+          <div className="xl-flex-1 xl-min-w-[50%]">
+            <div className="lg:grid lg:grid-cols-3 lg:gap-4">
+            <div className="absolute left-[10rem] max-[1024px]:left-[4rem] flex h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
               <div className="absolute bottom-8 right-16 flex h-[14px] w-[8rem] justify-center text-center">
                 Discover
               </div>
@@ -921,7 +922,7 @@ const Feature = () => {
                 </svg>
               </div>
             </div>
-            <div className="absolute top-[250px] left-[25rem] flex h-[267px] w-[268px] flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+            <div className="absolute top-[250px] left-[25rem] max-[1024px]:top-[50px] max-[1024px]:left-[24rem] flex h-[267px] w-[268px] flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{
@@ -1911,8 +1912,8 @@ const Feature = () => {
               </div>
               <div>Enjoy your shopping</div>
             </div>
-            <div className="absolute top-[420px] left-[10rem] flex h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
-              <div className="flex flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 drop-shadow-lg">
+            <div className="absolute top-[420px] left-[10rem] max-[1024px]:top-[20px] max-[1024px]:left-[42rem] flex h-[267p5] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
+              <div className="flex flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 drop-shadow-lg ">
                 <div className="h-60 w-[14rem]">
                   <svg
                     style={{
@@ -2783,11 +2784,12 @@ const Feature = () => {
                 <div>Make the Payment</div>
               </div>
             </div>
+            </div>
 
             {/* ends here */}
           </div>
-          <div className="flex-1 min-w-[50%] relative left-[80px]">
-            <div className="mt-[120px]">
+          <div className="flex-1 min-w-[50%] relative left-[80px] max-lg:absolute max-lg:top-[15.5rem]">
+            <div className="mt-[80px]">
               <div
                 style={{
                   color: "#F16427",
