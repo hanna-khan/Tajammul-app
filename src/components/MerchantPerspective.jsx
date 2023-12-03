@@ -1,14 +1,11 @@
 import React from "react";
 import aboutVector from "../assests/aboutVector.png";
-import yellowCircle from "../assests/Ellipse813.png";
-import orangeCircle from "../assests/Ellipse807.png";
 const MerchantPerspective = () => {
   return (
-    <div className="w-screen pb-10 relative top-[48rem] h-[750px] bg-stone-50">
+    <div className="w-screen pb-10 relative top-[15rem] h-[750px] bg-stone-50">
       <div className="absolute left-[43.5rem] top-[0rem]">
         <img className="h-[46.8rem]" src={aboutVector} alt="" />
       </div>
-
       <div className="ml-[100px] mr-[100px] container">
         <div className="flex m-auto">
           <div className="flex-1 min-w-[50%] m-auto">
@@ -232,7 +229,7 @@ const MerchantPerspective = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="7.5" cy="8.05859" r="7.5" fill="#F16427" />
+                  <circle cx="7.5" cy="8.05859" r="7.5" fill="#F16427" className="max-lg:hidden"/>
                 </svg>
               </div>
               <div className="absolute bottom-[-7.5px] right-16 h-4 w-4">
@@ -244,7 +241,7 @@ const MerchantPerspective = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="7.5" cy="8.07495" r="7.5" fill="#FDCE0C" />
+                  <circle className="max-lg:hidden" cx="7.5" cy="8.07495" r="7.5" fill="#FDCE0C" />
                 </svg>
               </div>
               <div className="absolute left-48 top-40 h-4 w-4">
@@ -256,7 +253,7 @@ const MerchantPerspective = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="7.5" cy="7.55859" r="7.5" fill="#FDCE0C" />
+                  <circle  className="max-lg:hidden" cx="7.5" cy="7.55859" r="7.5" fill="#FDCE0C" />
                 </svg>
               </div>
             </div>
