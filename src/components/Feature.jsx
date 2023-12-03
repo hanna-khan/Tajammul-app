@@ -25,9 +25,13 @@ const Feature = () => {
         <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center max-lg:text-5xl pb-3">
           Features
         </div>
+        {/* max-[730px]:w-[40%] max-[730px]:m-auto  lg:left-[10rem] max-[1130px]:left-[6rem] max-[1130px]:top-[6.5rem] max-[940px]:left-[20rem] max-[940px]:block flex  */}
+        {/* max-[730px]:w-[40%]  max-[730px]:m-auto  max-[940px]:left-[20rem] max-[940px]:top-[25rem] absolute top-[250px] left-[25rem] max-[1130px]:top-[6.5rem] max-[1130px]:left-[24rem] flex */}
+        {/* max-[730px]:w-[40%]  max-[730px]:m-auto  max-[940px]:left-[20rem] max-[940px]:top-[43rem] absolute top-[450px] left-[10rem] max-[1130px]:top-[6.5rem] max-[1130px]:left-[42rem] */}
+
 
         <div className="xl-flex-1 xl-min-w-[50%]">
-          <div className="max-[730px]:w-[40%]  max-[730px]:m-auto absolute left-[10rem]  max-[1130px]:left-[4rem] max-[940px]:left-[20rem] max-[940px]:blockflex h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+          <div className="absolute flex left-[10rem] max-[940px]:block h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
             <div className="absolute bottom-8 right-16 flex h-[14px] w-[8rem] justify-center text-center">
               Discover
             </div>
@@ -921,10 +925,11 @@ const Feature = () => {
               </svg>
             </div>
           </div>
-          <div className="max-[730px]:w-[40%]  max-[730px]:m-auto  max-[940px]:left-[20rem] max-[940px]:top-[25rem] absolute top-[250px] left-[25rem] max-[1130px]:top-[6.5rem] max-[1130px]:left-[24rem] flex h-[267px] w-[268px] flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
-            <div className="h-60 w-80">
+          <div className="absolute flex top-[250px] max-[700px]:left-[10rem] left-[25rem] h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+            <div className="relative h-60 w-80">
               <svg
-                className="max-[600px]:w-[12rem] w-[15rem] relative left-[48px]"
+
+                className="max-[600px]:w-[12rem] w-[15rem]"
                 style={{
                   overflow: "visible",
                 }}
@@ -1911,7 +1916,7 @@ const Feature = () => {
               Enjoy your shopping
             </div>
           </div>
-          <div className="max-[730px]:w-[40%]  max-[730px]:m-auto  max-[940px]:left-[20rem] max-[940px]:top-[43rem] absolute top-[450px] left-[10rem] max-[1130px]:top-[6.5rem] max-[1130px]:left-[42rem] flex h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
+          <div className="absolute flex top-[450px] left-[10rem] h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
             <div className="flex flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 drop-shadow-lg ">
               <div className="h-[10rem]">
                 <svg
