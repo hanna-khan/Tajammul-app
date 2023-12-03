@@ -2,41 +2,40 @@
 import React from "react";
 import yellowCircle from "../assests/Ellipse813.png";
 import orangeCircle from "../assests/Ellipse807.png";
-import vector from '../assests/Vector1.png'
+import vector from "../assests/Vector1.png";
 
 const Feature = () => {
   return (
-    <div className="w-screen pb-10 relative top-[42rem] h-[750px]">
-       <div className='absolute left-[42rem] top-[-4rem] max-lg:hidden'>
-              <img className="h-[51rem] max-lg:hidden" src={vector} alt="" />
-            </div>
-            <div className="absolute left-[75rem] top-[-2rem] max-lg:hidden">
-          <img className="h-[1rem]" src={orangeCircle} alt="" />
-        </div>
-        <div className="absolute left-[56.5rem] top-[10rem] max-lg:hidden">
-          <img className="h-[1rem]" src={yellowCircle} alt="" />
-        </div>
-      
-        <div className="absolute left-[55.5rem] top-[40rem] max-lg:hidden">
-          <img className="h-[.75rem]" src={yellowCircle} alt="" />
-        </div>
-      
+    <div className="w-screen pb-10 relative top-[42rem] h-[750px] max-[940px]:h-[94rem]">
+      <div className="absolute left-[42rem] top-[-4rem] max-lg:hidden">
+        <img className="h-[51rem] max-lg:hidden" src={vector} alt="" />
+      </div>
+      <div className="absolute left-[75rem] top-[-2rem] max-lg:hidden">
+        <img className="h-[1rem]" src={orangeCircle} alt="" />
+      </div>
+      <div className="absolute left-[56.5rem] top-[10rem] max-lg:hidden">
+        <img className="h-[1rem]" src={yellowCircle} alt="" />
+      </div>
+
+      <div className="absolute left-[55.5rem] top-[40rem] max-lg:hidden">
+        <img className="h-[.75rem]" src={yellowCircle} alt="" />
+      </div>
+
       <div className="container">
-        <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center max-lg:text-5xl">
+        <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
           Features
         </div>
-        <div className="flex m-auto max-[786px]:flex-col">
+        <div>
           <div className="xl-flex-1 xl-min-w-[50%]">
-            <div className="lg:grid lg:grid-cols-3 lg:gap-4">
-            <div className="absolute left-[10rem] max-[1024px]:left-[4rem] flex h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+            <div className="max-[730px]:w-[40%]  max-[730px]:m-auto absolute left-[10rem] max-[800px]:left-[16rem] max-[1130px]:left-[4rem] max-[940px]:left-[20rem] max-[940px]:block flex h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
               <div className="absolute bottom-8 right-16 flex h-[14px] w-[8rem] justify-center text-center">
                 Discover
               </div>
               <div className="relative h-60 w-80">
                 <svg
+                  className="max-[600px]:w-[12rem] w-[15rem]"
                   style={{
                     overflow: "visible",
-                    width: "15rem",
                   }}
                   viewBox="0 0 328 244.03"
                   fill="none"
@@ -922,14 +921,12 @@ const Feature = () => {
                 </svg>
               </div>
             </div>
-            <div className="absolute top-[250px] left-[25rem] max-[1024px]:top-[50px] max-[1024px]:left-[24rem] flex h-[267px] w-[268px] flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+            <div className="max-[730px]:w-[40%]  max-[730px]:m-auto max-[800px]:left-[16rem] max-[940px]:left-[20rem] max-[940px]:top-[25rem] absolute top-[250px] left-[25rem] max-[1130px]:top-[6.5rem] max-[1130px]:left-[24rem] flex h-[267px] w-[268px] flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
+                  className="max-[600px]:w-[12rem] w-[15rem] relative left-[48px]"
                   style={{
                     overflow: "visible",
-                    width: "15rem",
-                    position: "relative",
-                    left: "48px",
                   }}
                   viewBox="0 0 328 244.03"
                   fill="none"
@@ -1910,11 +1907,13 @@ const Feature = () => {
                   />
                 </svg>
               </div>
-              <div>Enjoy your shopping</div>
+              <div className="absolute bottom-[60px] right-16 flex h-[14px] w-[8rem] justify-center text-center">
+                Enjoy your shopping
+              </div>
             </div>
-            <div className="absolute top-[420px] left-[10rem] max-[1024px]:top-[20px] max-[1024px]:left-[42rem] flex h-[267p5] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
+            <div className="max-[730px]:w-[40%]  max-[730px]:m-auto max-[800px]:left-[16rem] max-[940px]:left-[20rem] max-[940px]:top-[43rem] absolute top-[450px] left-[10rem] max-[1130px]:top-[6.5rem] max-[1130px]:left-[42rem] flex h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
               <div className="flex flex-col items-center gap-y-4 rounded-2xl bg-white px-5 pb-8 pt-9 drop-shadow-lg ">
-                <div className="h-60 w-[14rem]">
+                <div className="h-[10rem]">
                   <svg
                     style={{
                       overflow: "visible",
@@ -2781,15 +2780,14 @@ const Feature = () => {
                     />
                   </svg>
                 </div>
-                <div>Make the Payment</div>
+                <div className="absolute bottom-[50px] right-16 flex h-[14px] w-[8rem] justify-center text-center">
+                  Make the Payment
+                </div>
               </div>
             </div>
-            </div>
-
-            {/* ends here */}
           </div>
-          <div className="flex-1 min-w-[50%] relative left-[80px] max-lg:absolute max-lg:top-[15.5rem]">
-            <div className="mt-[80px]">
+          <div className="max-[940px]:top-[58rem] flex-1 left-[44rem] top-[8.24rem] min-w-[50%] relative  max-[1130px]:left-[4rem] max-[1130px]:top-[18rem] flex-wrap max-w-[30rem] max-[1130px]:max-w-[50rem]">
+            <div>
               <div
                 style={{
                   color: "#F16427",
@@ -2824,7 +2822,6 @@ const Feature = () => {
           </div>
         </div>
       </div>
-     
     </div>
   );
 };
