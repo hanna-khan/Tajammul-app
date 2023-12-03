@@ -31,21 +31,21 @@ const About = () => {
             About us
           </div>
           <div className="flex container m-auto flex-wrap max-[730px]:flex-col-reverse">
-            <div className="flex-1 max-w-[50%] max-[730px]:m-auto max-[730px]:block">
+            <div className="flex-1 relative top-[4rem] max-w-[50%] max-[730px]:m-auto max-[730px]:block">
               {" "}
               <img
-                className="w-[20rem] h-[28rem] max-[730px]:h-[22rem] max-[730px]:w-[16rem]"
+                className="max-[1024px]:relative max-[1024px]:w-[15rem] max-[1024px]:h-[15rem] max-[550px]:w-[12rem] max-[550px]:h-[16rem] max-[1024px]:left[-10px] max-[1024px]:top-[11rem] w-[20rem] h-[28rem] max-[730px]:h-[22rem] max-[730px]:w-[16rem]"
                 src={mobile}
                 alt="mobile image"
               />
             </div>
             <div className="flex-1 max-[730px]:m-auto max-[730px]:block">
-              <div className="mt-[120px] w-[600px] flex">
+              <div className="mt-[120px] w-[400px] flex">
                 <img src={bag} alt="" />
                 <span className="ml-2 text-[#273B60] text-[55px] font-semibold text-center max-lg:text-4xl mr-2">
                   tajammul.app
                 </span>
-              <span className="text-right text-orange-500 text-[12px] font-bold leading-[23px] relative right-[17rem] top-[3rem]">
+              <span className="text-right text-orange-500 text-[12px] font-bold leading-[20px] relative right-[17rem] top-[3rem]">
                 Shopping Made Easy
               </span>
               </div>
