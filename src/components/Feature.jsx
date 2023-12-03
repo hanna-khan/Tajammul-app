@@ -925,7 +925,7 @@ const Feature = () => {
               </svg>
             </div>
           </div>
-          <div className="absolute flex top-[250px] max-[700px]:left-[10rem] left-[25rem] h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+          <div className="absolute flex top-[250px] left-[25rem] h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
             <div className="relative h-60 w-80">
               <svg
 
