@@ -7,14 +7,14 @@ const DownloadApp = () => {
     <>
       <div className="w-screen pb-10 relative top-[42rem] flex justify-center items-center h-[500px]">
         <div className="w-full h-[250px] bg-[#FDCE0C] overflow-visible">
-          <div className="mx-[100px]">
+          <div>
             <div className="container m-auto justify-around">
-              <div className="flex mx-[100px]">
-                <div className="flex-1 max-w-[50%] ml-[80px]">
-                  <div className="text-[#273B60] text-[42px] font-extrabold capitalize leading-[4.5rem] text-left">
+              <div className="flex">
+                <div className="flex-1 max-w-[50%] ml-[80px] max-[1010px]:ml-[20px] flex-wrap max-[630px]:ml-[0px] max-[630px]:max-w-[80%] max-[630px]:flex-none">
+                  <div className="text-[#273B60] text-[42px] max-[770px]:text-[32px] font-extrabold capitalize leading-[4.5rem] text-left">
                     Download App
                   </div>
-                  <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700">
+                  <div className="text-lg max-[770px]:text-[14px] font-normal leading-[28px] tracking-[0px] text-slate-700">
                     It's all a click away! Just download our mobile application
                     to enjoy hassle-free delivery of your products and services.
                   </div>
@@ -37,9 +37,9 @@ const DownloadApp = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex-1 max-w-[50%]">
+                <div className="flex-1 max-w-[50%] max-[630px]:hidden">
                   <img
-                    className="max-w-min relative top-[-80px] right-[170px] h-[435px]"
+                    className="max-w-min relative top-[-80px] right-[170px] h-[435px] max-[1010px]:h-[375px] max-[1010px]:top-[-50px] max-[1010px]:right-[100px] max-[770px]:h-[320px] max-[770px]:top-[-20px] max-[770px]:right-[90px]"
                     src="./twoPhone.png"
                     alt="Phone Image"
                   />
