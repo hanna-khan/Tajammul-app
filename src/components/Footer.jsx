@@ -22,25 +22,27 @@ const Footer = () => {
         </div>
 
         {/* MAIN LINKS  */}
-        <div className='flex justify-center items-start gap-x-10 pt-[5rem] text-white'>
+        <div className='flex justify-center items-start gap-x-10 sm:pt-[5rem] pt-[1rem] pl-3 pr-3 sm:pl-0 sm:pr-0 text-white'>
 
           <div>
+            <p className='font-bold mb-2 sm:text-base text-xs'>Contact Us</p>
+            <p className='sm:text-base text-xs'>@ info@tajammul.pk</p>
             <p className='font-bold mb-2'>Contact Us</p>
             <p>@ info@tajammul.app</p>
           </div>
 
           <div>
-            <p className='mb-2 font-bold '>Our Company</p>
-            <p className='mb-2'>About</p>
-            <p className='mb-2'>Product</p>
-            <p className='mb-2'>Services</p>
-            <p className='mb-2'>Contact us</p>
+            <p className='mb-2 font-bold sm:text-base text-xs'>Our Company</p>
+            <p className='mb-2 sm:text-base text-xs'>About</p>
+            <p className='mb-2 sm:text-base text-xs'>Product</p>
+            <p className='mb-2 sm:text-base text-xs'>Services</p>
+            <p className='mb-2 sm:text-base text-xs'>Contact us</p>
           </div>
 
           <div>
 
-            <p className='mb-6 font-bold'>Social Contacts</p>
-            <div className='flex gap-x-2 items-center'>
+            <p className='mb-6 font-bold sm:text-base text-xs'>Social Contacts</p>
+            <div className='flex gap-x-2 items-center flex-wrap'>
               <div style={{border:"2px solid white"}} className='w-[2rem] h-[2rem] rounded-full flex justify-center items-center'>
                 <FaFacebookF/>
               </div>
