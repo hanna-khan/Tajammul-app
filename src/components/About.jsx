@@ -34,7 +34,7 @@ const About = () => {
             <div className="flex-1">
               {" "}
               <img
-                className="w-[320px] h-[430px]"
+                className="w-[320px] h-[430px] max-[1120px]:h-[380] max-[1120px]:w-[280]"
                 src={mobile}
                 alt="mobile image"
               />

@@ -39,7 +39,7 @@ const DownloadApp = () => {
                 </div>
                 <div className="flex-1 max-w-[50%]">
                   <img
-                    className="max-w-fit relative top-[-80px] right-[170px] h-[435px]"
+                    className="max-w-min relative top-[-80px] right-[170px] h-[435px]"
                     src="./twoPhone.png"
                     alt="Phone Image"
                   />

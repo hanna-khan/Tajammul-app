@@ -7,25 +7,25 @@ import vector from '../assests/Vector1.png'
 const Feature = () => {
   return (
     <div className="w-screen pb-10 relative top-[42rem] h-[750px]">
-       <div className='absolute left-[42rem] top-[-4rem]'>
+       <div className='absolute left-[42rem] top-[-4rem] max-[1000px]:hidden'>
               <img className="h-[51rem]" src={vector} alt="" />
             </div>
-            <div className="absolute left-[75rem] top-[-2rem]">
+            <div className="absolute left-[75rem] top-[-2rem] max-[1000px]:hidden">
           <img className="h-[1rem]" src={orangeCircle} alt="" />
         </div>
-        <div className="absolute left-[56.5rem] top-[10rem]">
+        <div className="absolute left-[56.5rem] top-[10rem] max-[1000px]:hidden">
           <img className="h-[1rem]" src={yellowCircle} alt="" />
         </div>
       
-        <div className="absolute left-[55.5rem] top-[40rem]">
+        <div className="absolute left-[55.5rem] top-[40rem] max-[1000px]:hidden">
           <img className="h-[.75rem]" src={yellowCircle} alt="" />
         </div>
       
-      <div className="mx-[100px] container">
+      <div className="container">
         <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center">
           Features
         </div>
-        <div className="flex m-auto">
+        <div className="flex m-auto max-[786px]:flex-col">
           <div className="flex-1 min-w-[50%]">
             <div className="absolute left-[10rem] flex h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
               <div className="absolute bottom-8 right-16 flex h-[14px] w-[8rem] justify-center text-center">
@@ -2786,8 +2786,8 @@ const Feature = () => {
 
             {/* ends here */}
           </div>
-          <div className="flex-1 min-w-[50%]">
-            <div className="mt-[120px] w-[600px]">
+          <div className="flex-1 min-w-[50%] relative left-[80px]">
+            <div className="mt-[120px]">
               <div
                 style={{
                   color: "#F16427",

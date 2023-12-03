@@ -9,7 +9,7 @@ import ServiceOfferings from "./components/ServiceOfferings";
 import Footer from './components/Footer'
 function App() {
   return (
-    <div className="font-poppins scroll-smooth">
+    <div className="font-poppins scroll-smooth overflow-x-hidden">
       <Navbar/>
       <Hero />
       <About />

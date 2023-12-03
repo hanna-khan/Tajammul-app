@@ -50,7 +50,7 @@ const MerchantPerspective = () => {
             </div>
           </div>
           <div className="flex-1 min-w-[50%]">
-            <div className="bg-vector relative flex self-stretch bg-cover bg-center py-64 pr-44 text-[20px] font-bold text-slate-700 z-10">
+            <div className="bg-vector relative flex self-stretch bg-cover bg-center py-64 text-[20px] font-bold text-slate-700 z-10">
               <div className="relative flex self-stretch">
                 <div className="relative flex  h-[267px] w-[268px]  rounded-2xl bg-white drop-shadow-lg">
                   <div className="absolute bottom-5 h-10 pl-[34px]">
