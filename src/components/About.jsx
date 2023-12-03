@@ -45,9 +45,9 @@ const About = () => {
                 <span className="ml-2 text-[#273B60] text-[55px] font-semibold text-center max-lg:text-4xl mr-2">
                   tajammul.app
                 </span>
-              <span className="text-right text-orange-500 text-[12px] font-bold leading-[20px] relative right-[17rem] top-[3rem]">
+              {/* <span className="text-right text-orange-500 text-[12px] font-bold leading-[20px] relative right-[17rem] top-[3rem]">
                 Shopping Made Easy
-              </span>
+              </span> */}
               </div>
               <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-lg:text-base max-w-[80%] max-[730px]:m-auto max-[730px]:block">
                 Tajammul is an online solution for online groceries, food, and
