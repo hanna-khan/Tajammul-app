@@ -8,7 +8,7 @@ const MerchantPerspective = () => {
       </div>
       <div className="container">
         <div className="flex m-auto">
-        <div className="flex-1 top-[4rem] lg:top-[12rem] lg:m-0 m-auto w-[80%] lg:w-[40%] relative left-[2rem] flex-wrap  ">
+        <div className="flex-1 top-[4rem] lg:top-[12rem] lg:m-0 m-auto w-[80%] lg:w-[40%] relative left-[2rem]">
           <div className="w-[600px]">
             <div
               className="text-[#F16427] font-extrabold text-[52px] max-lg:text-5xl"
@@ -36,8 +36,8 @@ const MerchantPerspective = () => {
           </div>
         </div>
           <div className="flex-1 min-w-[50%]">
-            <div className=" bg-vector top-[12rem] left-[40rem] absolute flex self-stretch bg-cover bg-center text-[20px] font-bold text-slate-700 z-10">
-              <div className="relative flex self-stretch">
+            <div className=" bg-vector top-[12rem] left-[40rem] absolute flex bg-cover bg-center text-[20px] font-bold text-slate-700 z-10">
+              <div className="relative flex">
                 <div className="relative flex  h-[267px] w-[268px]  rounded-2xl bg-white drop-shadow-lg">
                   <div className="absolute bottom-5 h-10 pl-[34px]">
                     Select your time slots
@@ -811,7 +811,7 @@ const MerchantPerspective = () => {
                     width: "14rem",
                     position: "relative",
                     bottom: "20px",
-                    left: "30px",
+                    left: "44px",
                   }}
                   viewBox="0 0 328 244.03"
                   fill="none"
