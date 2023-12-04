@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Feature from "./components/Feature";
 import About from "./components/About";
 import MerchantPerspective from "./components/MerchantPerspective";
+import Merchant from "./components/Merchant";
 import DownloadApp from "./components/DownloadApp";
 import ServiceOfferings from "./components/ServiceOfferings";
 import Footer from './components/Footer'
@@ -14,7 +15,8 @@ function App() {
       <Hero />
       <About />
       <Feature />
-      <MerchantPerspective />
+      {/* <MerchantPerspective /> */}
+      <Merchant/>
       <DownloadApp/>
       <ServiceOfferings/>
       <Footer/>

@@ -35,8 +35,15 @@ const MerchantPerspective = () => {
               profit from selling your goods and services.
             </div>
           </div>
+          {/* bg-vector relative flex self-stretch bg-cover bg-center py-64 text-[20px] font-bold text-slate
+
+          z-0 absolute right-[7rem] top-[26rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5
+
+
+          z-0 absolute right-[7rem] top-[7rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg */}
+
           <div className="flex-1 min-w-[50%]">
-            <div className="bg-vector relative flex self-stretch bg-cover bg-center py-64 text-[20px] font-bold text-slate-700 z-10">
+            <div className="bg-vector self-stretch bg-cover bg-center absolute block sm:flex left-[10rem] top-[10rem] max-[940px]:block h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg z-10">
               <div className="relative flex self-stretch">
                 <div className="relative flex  h-[267px] w-[268px]  rounded-2xl bg-white drop-shadow-lg">
                   <div className="absolute bottom-5 h-10 pl-[34px]">
@@ -257,7 +264,7 @@ const MerchantPerspective = () => {
                 </svg>
               </div>
             </div>
-            <div className="z-0 absolute right-[7rem] top-[26rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
+            <div className="z-0 absolute block right-[7rem] top-[26rem] h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{
@@ -803,7 +810,7 @@ const MerchantPerspective = () => {
               <div>Sell your product</div>
             </div>
 
-            <div className="z-0 absolute right-[7rem] top-[7rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
+            <div className="z-0 absolute block sm:flex top-[46rem] sm:top-[450px] left-[10rem] h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
               <div className="h-60 w-80">
                 <svg
                   style={{
