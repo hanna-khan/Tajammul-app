@@ -8,42 +8,35 @@ const MerchantPerspective = () => {
       </div>
       <div className="container">
         <div className="flex m-auto">
-          <div className="flex-1 min-w-[50%] m-auto ml-[4rem]">
-            <div className="w-[600px]">
-              <div
-                className="text-[#F16427] font-extrabold text-[52px] max-lg:text-5xl"
-                style={{
-                  wordWrap: "break-word",
-                }}
-              >
-                Merchant
-              </div>
-              <div
-                className="max-lg:text-5xl text-[#FDCE0C] text-[69px] font-extrabold"
-                style={{
-                  wordWrap: "break-word",
-                }}
-              >
-                Perspective
-              </div>
+        <div className="flex-1 top-[4rem] lg:top-[12rem] lg:m-0 m-auto w-[80%] lg:w-[40%] relative left-[2rem] flex-wrap  ">
+          <div className="w-[600px]">
+            <div
+              className="text-[#F16427] font-extrabold text-[52px] max-lg:text-5xl"
+              style={{
+                wordWrap: "break-word",
+              }}
+            >
+              Merchant
             </div>
-            <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[75%] max-lg:text-lg">
-              As a merchant, you will register your company as well as the
-              products or services it provides. Then, in the booking calendar
-              section, you must include the availability and time slots of those
-              services so that people can book them accordingly. You're ready to
-              profit from selling your goods and services.
+            <div
+              className="max-lg:text-5xl text-[#FDCE0C] text-[69px] font-extrabold"
+              style={{
+                wordWrap: "break-word",
+              }}
+            >
+              Perspective
             </div>
           </div>
-          {/* bg-vector relative flex self-stretch bg-cover bg-center py-64 text-[20px] font-bold text-slate
-
-          z-0 absolute right-[7rem] top-[26rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5
-
-
-          z-0 absolute right-[7rem] top-[7rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg */}
-
+          <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 sm:text-lg w-[80%] lg:w-[100%]">
+            As a merchant, you will register your company as well as the
+            products or services it provides. Then, in the booking calendar
+            section, you must include the availability and time slots of those
+            services so that people can book them accordingly. You're ready to
+            profit from selling your goods and services.
+          </div>
+        </div>
           <div className="flex-1 min-w-[50%]">
-            <div className="bg-vector self-stretch bg-cover bg-center absolute block sm:flex left-[10rem] top-[10rem] max-[940px]:block h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg z-10">
+            <div className=" bg-vector top-[12rem] left-[40rem] absolute flex self-stretch bg-cover bg-center text-[20px] font-bold text-slate-700 z-10">
               <div className="relative flex self-stretch">
                 <div className="relative flex  h-[267px] w-[268px]  rounded-2xl bg-white drop-shadow-lg">
                   <div className="absolute bottom-5 h-10 pl-[34px]">
@@ -264,7 +257,7 @@ const MerchantPerspective = () => {
                 </svg>
               </div>
             </div>
-            <div className="z-0 absolute block right-[7rem] top-[26rem] h-[267px] w-[268px] rounded-2xl bg-white px-5 pb-8 pt-9 text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700 drop-shadow-lg">
+            <div className="z-0 absolute right-[7rem] top-[20rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{
@@ -810,7 +803,7 @@ const MerchantPerspective = () => {
               <div>Sell your product</div>
             </div>
 
-            <div className="z-0 absolute block sm:flex top-[46rem] sm:top-[450px] left-[10rem] h-[267px] w-[268px] text-[20px] font-bold leading-[normal] tracking-[0px] text-slate-700">
+            <div className="z-0 absolute right-[7rem] top-[2rem] flex  h-[267px] w-[268px]  flex-col items-center gap-y-5 rounded-2xl bg-white py-8 px-5 text-[20px] font-bold text-slate-700 drop-shadow-lg">
               <div className="h-60 w-80">
                 <svg
                   style={{

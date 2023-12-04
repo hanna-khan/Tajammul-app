@@ -15,8 +15,8 @@ function App() {
       <Hero />
       <About />
       <Feature />
-      {/* <MerchantPerspective /> */}
-      <Merchant/>
+      <MerchantPerspective />
+      {/* <Merchant/> */}
       <DownloadApp/>
       <ServiceOfferings/>
       <Footer/>
