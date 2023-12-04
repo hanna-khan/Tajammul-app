@@ -2782,7 +2782,7 @@ const Merchant = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 top-[12rem] min-w-[50%] relative left-[2rem] flex-wrap max-w-[30rem] sm:max-w-[50rem]">
+        <div className="flex-1 top-[4rem] lg:top-[12rem] lg:m-0 m-auto w-[80%] lg:w-[40%] relative left-[2rem] flex-wrap  ">
           <div className="w-[600px]">
             <div
               className="text-[#F16427] font-extrabold text-[52px] max-lg:text-5xl"
@@ -2801,7 +2801,7 @@ const Merchant = () => {
               Perspective
             </div>
           </div>
-          <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-w-[50%] sm:text-lg">
+          <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 sm:text-lg w-[80%] lg:w-[70%]">
             As a merchant, you will register your company as well as the
             products or services it provides. Then, in the booking calendar
             section, you must include the availability and time slots of those
