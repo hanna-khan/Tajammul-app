@@ -6,6 +6,7 @@ import vector from "../assests/Vector1.png";
 import discover from "../assests/discover.jpg";
 import payment from "../assests/payment.jpg";
 import shopping from "../assests/shopping.jpg";
+import "./Feature.css";
 
 const Feature = () => {
   return (
@@ -28,23 +29,31 @@ const Feature = () => {
       </div>
 
       <div className="flex xl:justify-between justify-center xl:flex-row flex-col">
-        <div className="xl:block justify-center items-center flex-col flex flex-1 bg-slate-500 pt-[2rem] pl-[2rem]">
+        <div className="xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]">
           <div className="h-[18rem] w-[18rem] mb-[1rem] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold  text-slate-700 drop-shadow-lg">
             <div>
               <div>
-                <img className="h-[100%] w-[100%]" src={discover} alt="" />
+                <img className={`h-[100%] w-[100%]`} src={discover} alt="" />
                 <p className="text-center mt-2">Discover</p>
               </div>
-            <div className="relative left-[14rem] top-[-6rem] h-[18rem] w-[18rem] rounded-2xl drop-shadow-lg">
-              <img className="h-[100%] w-[100%]" src={shopping} alt="" />
-            </div>
+              <div className="relative left-[14rem] rounded-2xl top-[-6rem] h-[18rem] w-[18rem]">
+                <img
+                  className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg"
+                  src={shopping}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div className="h-[18rem] w-[18rem] text-[20px] font-bold  text-slate-700">
-            <img className="h-[100%] w-[100%]" src={payment} alt="" />
+            <img
+              className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg"
+              src={payment}
+              alt=""
+            />
           </div>
         </div>
-        <div className="flex-1 bg-slate-400 flex-wrap">
+        <div className="flex-1 flex-wrap mx-2">
           <div>
             <div
               className="text-[#F16427] text-[52px] font-extrabold capitalize max-lg:text-4xl text-left"
