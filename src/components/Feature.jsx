@@ -53,7 +53,7 @@ const Feature = () => {
             />
           </div>
         </div>
-        <div className="flex-1 flex-wrap mx-2">
+        <div className="flex-1 flex-wrap pl-[2rem] pt-[3rem]">
           <div>
             <div
               className="text-[#F16427] text-[52px] font-extrabold capitalize max-lg:text-4xl text-left"
@@ -72,7 +72,7 @@ const Feature = () => {
               Perspective
             </div>
           </div>
-          <div className="text-lg font-normal leading-[28px] text-slate-700 w-[90%] sm:text-lg">
+          <div className="text-lg font-normal leading-[28px] text-slate-700 w-[90%] sm:text-lg ">
             user, you can browse down to a variety of restaurants and grocery
             stores and pick the one that best suits your needs. You will be able
             to choose from a variety of alternatives. You'll also get access to
