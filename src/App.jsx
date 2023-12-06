@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import Navbar from './components/Navbar'
 import Feature from "./components/Feature";
 import About from "./components/About";
-import MerchantPerspective from "./components/MerchantPerspective";
 import Merchant from "./components/Merchant";
 import DownloadApp from "./components/DownloadApp";
 import ServiceOfferings from "./components/ServiceOfferings";
@@ -15,12 +14,10 @@ function App() {
       <Hero />
       <About />
       <Feature />
-      <MerchantPerspective />
-      {/* <Merchant/> */}
+      <Merchant/>
       <DownloadApp/>
       <ServiceOfferings/>
       <Footer/>
-      
     </div>
   );
 }
