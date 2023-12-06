@@ -6,6 +6,8 @@ import yellowCircle from "../assests/Ellipse813.png";
 import aboutVector from "../assests/aboutVector.png";
 import mobile from "../assests/mobile.png";
 import bag from "../assests/orangeBag.png";
+import smile from "../assests/smile.png";
+import handle from "../assests/handle.png";
 
 const About = () => {
   return (
@@ -31,7 +33,7 @@ const About = () => {
             About us
           </div>
           <div className="flex container m-auto flex-wrap max-[730px]:flex-col-reverse">
-            <div className="flex-1 max-sm:hidden relative top-[4rem] max-w-[50%] max-[730px]:m-auto max-[730px]:block">
+            <div className="flex-1 max-sm:hidden relative top-[4rem] max-w-[50%] max-[730px]:m-auto max-[400px]:m-0 max-[730px]:block">
               {" "}
               <img
                 className="w-[21rem] h-[30rem] max-lg:w-[15rem] max-lg:h-[20rem] max-[730px]:h-[22rem] max-[730px]:w-[16rem] pr-2"
@@ -41,15 +43,19 @@ const About = () => {
             </div>
             <div className="flex-1 max-[730px]:m-auto max-[730px]:block">
               <div className="mt-[120px] max-lg:mt-[20px] w-[400px] flex">
-                <img src={bag} alt="" />
-                <span className="ml-2 text-[#273B60] text-[55px] font-semibold text-center max-lg:text-4xl mr-2 max-sm:text-[1.75rem]">
+                <img  className="h-[6rem] max-md:h-[4rem]" src={bag} alt="" />
+                <img className="h-[2rem] relative top-[-1rem] left-[-4.8rem] max-md:left-[-3.5rem] max-md:h-[1.5rem]" src={handle} alt="" />
+                <img  className=" max-md:h-[2rem]  max-md:top-[1.5rem]  max-md:left-[-6rem] h-[3rem] relative top-[2rem] left-[-8.52rem]" src={smile} alt="" />
+  
+
+                <span className="ml-[-5rem] text-[#273B60] text-[55px] font-semibold text-center max-lg:text-4xl mr-2 max-sm:text-[1.75rem]">
                   tajammul.app
                 </span>
               {/* <span className="text-right text-orange-500 text-[12px] font-bold leading-[20px] relative right-[17rem] top-[3rem]">
                 Shopping Made Easy
               </span> */}
               </div>
-              <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-lg:text-base max-w-[80%] max-[730px]:m-auto max-[730px]:block">
+              <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-lg:text-base max-w-[80%] max-[730px]:m-auto max-[730px]:block max-sm:text-[0.9rem] ">
                 Tajammul is an online solution for online groceries, food, and
                 daily needs delivery. More importantly, it provides a platform
                 for consumers to book services based on their current location.
