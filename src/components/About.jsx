@@ -13,19 +13,19 @@ const About = () => {
   return (
     <>
       <div className="w-screen pb-10 relative top-[15rem] h-[700px] max-sm:h-[550px] max-[730px]:h-[900px] bg-stone-50 px-[20px]">
-        <div className="absolute left-[13rem] top-[-12rem] max-lg:hidden">
-          <img className="h-[49.5rem]" src={aboutVector} alt="" />
+        <div className="absolute left-[13rem] top-[-16rem] max-lg:hidden">
+          <img className="h-[59.5rem]" src={aboutVector} alt="" />
         </div>
-        <div className="absolute left-[12.5rem] top-[-7rem] max-lg:hidden">
+        <div className="absolute left-[13.5rem] top-[-7rem] max-lg:hidden">
           <img className="h-[1rem]" src={yellowCircle} alt="" />
         </div>
-        <div className="absolute left-[23rem] top-[-7rem] max-lg:hidden">
+        <div className="absolute left-[26rem] top-[-7rem] max-lg:hidden">
           <img className="h-[.75rem]" src={yellowCircle} alt="" />
         </div>
-        <div className="absolute left-[38rem] top-[12rem] max-lg:hidden">
+        <div className="absolute left-[44rem] top-[12rem] max-lg:hidden">
           <img className="h-[1rem]" src={yellowCircle} alt="" />
         </div>
-        <div className="absolute left-[28rem] top-[12.5rem] max-lg:hidden">
+        <div className="absolute left-[27.5rem] top-[12.5rem] max-lg:hidden">
           <img className="h-[.75rem]" src={yellowCircle} alt="" />
         </div>
         <div>

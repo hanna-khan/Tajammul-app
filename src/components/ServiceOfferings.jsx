@@ -12,7 +12,7 @@ import VegImage from '../assests/vegscreen.png'
 const ServiceOfferings = () => {
   return (
 
-    <div className="relative w-screen flex justify-center items-center flex-col font-poppins">
+    <div className="relative w-screen flex justify-center items-center top-[20rem] flex-col font-poppins">
 
       {/* UPPER BOX  */}
       <div className="md:flex justify-between items-center w-[100%] h-fit bg-[#F8F8F8]">

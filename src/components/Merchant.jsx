@@ -2,34 +2,32 @@
 import React from "react";
 import yellowCircle from "../assests/Ellipse813.png";
 import orangeCircle from "../assests/Ellipse807.png";
-import vector from "../assests/Vector1.png";
+import bigCircle from "../assests/Ellipse1Outline.png";
+import merchantVector from "../assests/merchantVector.png";
 import aboutVector from "../assests/aboutVector.png";
-import discover from "../assests/discover.jpg";
+import phone2 from "../assests/phone2.jpg";
 import services from "../assests/services.png";
 import product from "../assests/product.jpg";
-import time from "../assests/time.jpg"; 
+import time from "../assests/time.jpg";
 
 import "./Feature.css";
 
 const Feature = () => {
   return (
     <div className="w-screen pb-10 relative top-[19rem] bg-stone-50 pl-[2rem] pt-[3rem]">
-      {/* <div className="absolute left-[43.5rem] top-[0rem]">
-        <img className="h-[46.8rem]" src={aboutVector} alt="" />
-      </div> */}
-      <div className="absolute left-[42rem] top-[-4rem] max-lg:hidden">
-        <img className="h-[51rem] max-lg:hidden" src={vector} alt="" />
+      <div className="absolute left-[44.2rem] top-[0rem] max-lg:hidden">
+        <img className="h-[43rem] max-lg:hidden" src={merchantVector} alt="" />
       </div>
-      <div className="absolute left-[75rem] top-[-2rem] max-lg:hidden">
+      <div className="absolute left-[45.3rem] top-[2rem] max-lg:hidden">
         <img className="h-[1rem]" src={orangeCircle} alt="" />
       </div>
-      <div className="absolute left-[56.5rem] top-[10rem] max-lg:hidden">
+      <div className="absolute left-[54.8rem] top-[6rem] max-lg:hidden">
         <img className="h-[1rem]" src={yellowCircle} alt="" />
       </div>
 
-      <div className="absolute left-[55.5rem] top-[40rem] max-lg:hidden">
+      {/* <div className="absolute left-[55.5rem] top-[40rem] max-lg:hidden">
         <img className="h-[.75rem]" src={yellowCircle} alt="" />
-      </div>
+      </div> */}
 
       <div className="flex xl:justify-between justify-center xl:flex-row flex-col">
         <div className="flex-1 flex-wrap mx-2 m-auto">
@@ -64,8 +62,10 @@ const Feature = () => {
           <div className="max-sm:h-[12rem] max-sm:w-[12rem] relative max-sm:left-[12rem] left-[14rem] h-[18rem] w-[18rem] mb-[1rem] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold  text-slate-700 drop-shadow-lg">
             <div>
               <div>
-                <img className={`h-[100%] w-[100%]`} src={discover} alt="" />
-                <p className="text-center mt-2 max-sm:text-[14px] max-sm:relative max-sm:bottom-[6px]">Add your product or services</p>
+                <img className={`h-[100%] w-[100%]`} src={phone2} alt="" />
+                <p className="text-center mt-2 max-sm:text-[14px] max-sm:relative max-sm:bottom-[6px]">
+                  Add your product or services
+                </p>
               </div>
               <div className="max-sm:h-[12rem] max-sm:w-[12rem] relative rounded-2xl left-[-1rem] top-[2rem] h-[18rem] w-[18rem]">
                 <img

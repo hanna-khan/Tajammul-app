@@ -12,16 +12,16 @@ const Feature = () => {
   return (
     <div className="w-screen pb-10 relative top-[19rem]">
       <div className="absolute left-[42rem] top-[-4rem] max-lg:hidden">
-        <img className="h-[51rem] max-lg:hidden" src={vector} alt="" />
+        <img className="h-[53rem] max-lg:hidden" src={vector} alt="" />
       </div>
-      <div className="absolute left-[75rem] top-[-2rem] max-lg:hidden">
+      <div className="absolute left-[76.2rem] top-[-2rem] max-lg:hidden">
         <img className="h-[1rem]" src={orangeCircle} alt="" />
       </div>
-      <div className="absolute left-[56.5rem] top-[10rem] max-lg:hidden">
+      <div className="absolute left-[58.5rem] top-[10rem] max-lg:hidden">
         <img className="h-[1rem]" src={yellowCircle} alt="" />
       </div>
 
-      <div className="absolute left-[55.5rem] top-[40rem] max-lg:hidden">
+      <div className="absolute left-[56.8rem] top-[40rem] max-lg:hidden">
         <img className="h-[.75rem]" src={yellowCircle} alt="" />
       </div>
       <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center max-lg:text-5xl pb-3">

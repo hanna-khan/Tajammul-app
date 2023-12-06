@@ -5,11 +5,11 @@ import React from "react";
 const DownloadApp = () => {
   return (
     <>
-      <div className="w-screen flex justify-center items-center h-[100vh] mt-[2rem]">
-        <div className="w-full bg-[#FDCE0C] overflow-visible h-[22vh] max-md:h-[48vh]">
+      <div className="relative top-[20rem] h-[100%] w-screen flex justify-center items-center mt-[2rem]">
+        <div className="w-full bg-[#FDCE0C] overflow-visible">
             <div className="container m-auto justify-around">
               <div className="flex max-md:flex-col">
-                <div className="ml-[2rem] flex-1 flex-wrap max-[630px]:flex-none">
+                <div className="ml-[2rem] relative flex-1 flex-wrap max-[630px]:flex-none">
                   <div className="text-[#273B60] text-[42px] max-md:text-[32px] font-extrabold capitalize leading-[4.5rem] text-left">
                     Download App
                   </div>
