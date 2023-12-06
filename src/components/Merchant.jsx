@@ -60,12 +60,12 @@ const Feature = () => {
           </div>
         </div>
         {/* Images Section */}
-        <div className="xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]  max-xl:relative max-xl:right-[8rem] max-sm:right-[6rem] ml-[2rem]">
-          <div className="max-sm:h-[12rem] max-sm:w-[12rem] relative left-[14rem] h-[18rem] w-[18rem] mb-[1rem] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold  text-slate-700 drop-shadow-lg">
+        <div className="xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]  max-xl:relative max-xl:right-[8rem] max-sm:right-[9rem] ml-[2rem]">
+          <div className="max-sm:h-[12rem] max-sm:w-[12rem] relative max-sm:left-[12rem] left-[14rem] h-[18rem] w-[18rem] mb-[1rem] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold  text-slate-700 drop-shadow-lg">
             <div>
               <div>
                 <img className={`h-[100%] w-[100%]`} src={discover} alt="" />
-                <p className="text-center mt-2 max-sm:text-[14px]">Add your product or services</p>
+                <p className="text-center mt-2 max-sm:text-[14px] max-sm:relative max-sm:bottom-[6px]">Add your product or services</p>
               </div>
               <div className="max-sm:h-[12rem] max-sm:w-[12rem] relative rounded-2xl left-[-1rem] top-[2rem] h-[18rem] w-[18rem]">
                 <img
@@ -76,7 +76,7 @@ const Feature = () => {
               </div>
             </div>
           </div>
-          <div className="max-sm:h-[12rem] max-sm:w-[12rem] relative top-[-10rem] h-[18rem] w-[18rem] text-[20px] font-bold  text-slate-700">
+          <div className="max-sm:left-[2rem] max-sm:top-[-7rem] max-sm:h-[12rem] max-sm:w-[12rem] relative top-[-10rem] h-[18rem] w-[18rem] text-[20px] font-bold  text-slate-700">
             <img
               className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg"
               src={time}

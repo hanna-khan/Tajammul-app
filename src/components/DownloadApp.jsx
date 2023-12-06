@@ -5,12 +5,12 @@ import React from "react";
 const DownloadApp = () => {
   return (
     <>
-      <div className="w-screen pb-10 top-[42rem] flex justify-center items-center h-[760px]">
-        <div className="w-full h-[250px] bg-[#FDCE0C] overflow-visible">
+      <div className="w-screen flex justify-center items-center h-[100vh]">
+        <div className="w-full bg-[#FDCE0C] overflow-visible h-fit">
           <div>
             <div className="container m-auto justify-around">
               <div className="flex">
-                <div className="flex-1 max-w-[50%] ml-[80px] max-[1010px]:ml-[20px] flex-wrap max-[630px]:ml-[0px] max-[630px]:max-w-[80%] max-[630px]:flex-none">
+                <div className="ml-[2rem] flex-1 max-w-[50%] max-[1010px]:ml-[20px] flex-wrap max-[630px]:ml-[0px] max-[630px]:max-w-[80%] max-[630px]:flex-none">
                   <div className="text-[#273B60] text-[42px] max-[770px]:text-[32px] font-extrabold capitalize leading-[4.5rem] text-left">
                     Download App
                   </div>
@@ -22,7 +22,7 @@ const DownloadApp = () => {
                     <a href="#">
                       <button
                         type="submit"
-                        className="btn btn-primary w-[10rem]"
+                        className="btn btn-primary w-[10rem] max-sm:w-[8rem]"
                       >
                         <img src="./GoogleBtn.png" alt="" />
                       </button>
@@ -30,7 +30,7 @@ const DownloadApp = () => {
                     <a href="#">
                       <button
                         type="submit"
-                        className="btn btn-primary ml-2 w-[10rem]"
+                        className="btn btn-primary ml-2 w-[10rem] max-sm:w-[8rem]"
                       >
                         <img src="./AppleBtn.png" alt="" />
                       </button>
