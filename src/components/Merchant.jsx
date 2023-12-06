@@ -60,7 +60,7 @@ const Feature = () => {
           </div>
         </div>
         {/* Images Section */}
-        <div className="xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]">
+        <div className="xl:block justify-center items-center flex-col flex flex-1 pt-[2rem] mr-[16rem] max-xl:relative max-xl:right-[0rem] ">
           <div className="relative left-[14rem] h-[18rem] w-[18rem] mb-[1rem] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold  text-slate-700 drop-shadow-lg">
             <div>
               <div>
