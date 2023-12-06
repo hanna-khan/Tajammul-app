@@ -5,16 +5,15 @@ import React from "react";
 const DownloadApp = () => {
   return (
     <>
-      <div className="w-screen flex justify-center items-center h-[100vh]">
-        <div className="w-full bg-[#FDCE0C] overflow-visible h-fit">
-          <div>
+      <div className="w-screen flex justify-center items-center h-[100vh] mt-[2rem]">
+        <div className="w-full bg-[#FDCE0C] overflow-visible h-[22vh] max-md:h-[48vh]">
             <div className="container m-auto justify-around">
-              <div className="flex">
-                <div className="ml-[2rem] flex-1 max-w-[50%] max-[1010px]:ml-[20px] flex-wrap max-[630px]:ml-[0px] max-[630px]:max-w-[80%] max-[630px]:flex-none">
-                  <div className="text-[#273B60] text-[42px] max-[770px]:text-[32px] font-extrabold capitalize leading-[4.5rem] text-left">
+              <div className="flex max-md:flex-col">
+                <div className="ml-[2rem] flex-1 flex-wrap max-[630px]:flex-none">
+                  <div className="text-[#273B60] text-[42px] max-md:text-[32px] font-extrabold capitalize leading-[4.5rem] text-left">
                     Download App
                   </div>
-                  <div className="text-lg max-[770px]:text-[14px] font-normal leading-[28px] tracking-[0px] text-slate-700">
+                  <div className="text-lg max-md:text-[14px] font-normal leading-[28px] tracking-[0px] text-slate-700">
                     It's all a click away! Just download our mobile application
                     to enjoy hassle-free delivery of your products and services.
                   </div>
@@ -37,9 +36,9 @@ const DownloadApp = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex-1 max-w-[50%] max-[630px]:hidden">
+                <div className="flex-1">
                   <img
-                    className="max-w-min relative top-[-80px] right-[170px] h-[435px] max-[1010px]:h-[375px] max-[1010px]:top-[-50px] max-[1010px]:right-[100px] max-[770px]:h-[320px] max-[770px]:top-[-20px] max-[770px]:right-[90px]"
+                    className="max-md:flex-col relative top-[-2rem] right-[170px] h-[20rem] max-lg:h-[16rem] max-lg:top-[-4px] max-lg:right-[0rem] max-md:h-[320px] max-sm:h-[16rem] max-md:top-[20px] max-md:left-[4rem] max-sm:left-[0rem]"
                     src="./twoPhone.png"
                     alt="Phone Image"
                   />
@@ -47,7 +46,6 @@ const DownloadApp = () => {
               </div>
             </div>
           </div>
-        </div>
       </div>
     </>
   );

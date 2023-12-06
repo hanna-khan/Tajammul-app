@@ -5,7 +5,6 @@ import Feature from "./components/Feature";
 import About from "./components/About";
 import Merchant from "./components/Merchant";
 import DownloadApp from "./components/DownloadApp";
-import AppDownload from "./components/AppDownload.jsx";
 import ServiceOfferings from "./components/ServiceOfferings";
 import Footer from "./components/Footer";
 function App() {

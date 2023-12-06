@@ -42,7 +42,7 @@ const About = () => {
             <div className="flex-1 max-[730px]:m-auto max-[730px]:block">
               <div className="mt-[120px] max-lg:mt-[20px] w-[400px] flex">
                 <img src={bag} alt="" />
-                <span className="ml-2 text-[#273B60] text-[55px] font-semibold text-center max-lg:text-4xl mr-2">
+                <span className="ml-2 text-[#273B60] text-[55px] font-semibold text-center max-lg:text-4xl mr-2 max-sm:text-[1.75rem]">
                   tajammul.app
                 </span>
               {/* <span className="text-right text-orange-500 text-[12px] font-bold leading-[20px] relative right-[17rem] top-[3rem]">
