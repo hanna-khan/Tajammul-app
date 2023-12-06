@@ -28,15 +28,15 @@ const Feature = () => {
         Features
       </div>
 
-      <div className="flex xl:justify-between justify-center xl:flex-row flex-col">
-        <div className="xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]">
-          <div className="h-[18rem] w-[18rem] mb-[1rem] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold  text-slate-700 drop-shadow-lg">
+      <div className="flex xl:justify-between justify-center xl:flex-row flex-col ">
+        <div className="max-xl:relative max-xl:right-[8rem] max-sm:right-[6rem] ml-[2rem]xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]">
+          <div className="h-[18rem] w-[18rem]  max-sm:h-[12rem] max-sm:w-[12rem] mb-[1rem] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold  text-slate-700 drop-shadow-lg">
             <div>
-              <div>
+              <div >
                 <img className={`h-[100%] w-[100%]`} src={discover} alt="" />
                 <p className="text-center mt-2">Discover</p>
               </div>
-              <div className="relative left-[14rem] rounded-2xl top-[-6rem] h-[18rem] w-[18rem]">
+              <div className="relative left-[14rem] max-sm:left-[9rem] rounded-2xl top-[-6rem] h-[18rem] w-[18rem] max-sm:h-[12rem] max-sm:w-[12rem]">
                 <img
                   className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg"
                   src={shopping}
@@ -45,7 +45,7 @@ const Feature = () => {
               </div>
             </div>
           </div>
-          <div className="h-[18rem] w-[18rem] text-[20px] font-bold  text-slate-700">
+          <div className="max-sm:h-[12rem] max-sm:w-[12rem] h-[18rem] w-[18rem] text-[20px] font-bold  text-slate-700">
             <img
               className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg"
               src={payment}
