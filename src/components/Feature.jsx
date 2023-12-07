@@ -33,12 +33,12 @@ const Feature = () => {
           <div className="h-[18rem] w-[18rem]  max-sm:h-[12rem] max-sm:w-[12rem] mb-[1rem] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold  text-slate-700 drop-shadow-lg">
             <div>
               <div >
-                <img className={`h-[100%] w-[100%]`} src={discover} alt="" />
+                <img className={`h-[100%] w-[100%] transition duration-300 ease-in-out hover:scale-110`} src={discover} alt="" />
                 <p className="text-center mt-2">Discover</p>
               </div>
               <div className="relative left-[14rem] max-sm:left-[9rem] rounded-2xl top-[-6rem] h-[18rem] w-[18rem] max-sm:h-[12rem] max-sm:w-[12rem]">
                 <img
-                  className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg"
+                  className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg transition duration-300 ease-in-out hover:scale-110"
                   src={shopping}
                   alt=""
                 />
@@ -47,7 +47,7 @@ const Feature = () => {
           </div>
           <div className="max-sm:h-[12rem] max-sm:w-[12rem] h-[18rem] w-[18rem] text-[20px] font-bold  text-slate-700">
             <img
-              className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg"
+              className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg transition duration-300 ease-in-out hover:scale-110"
               src={payment}
               alt=""
             />
