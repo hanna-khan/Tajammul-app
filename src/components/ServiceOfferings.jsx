@@ -6,9 +6,9 @@ import Decorter1 from '../assests/Decorator (3).png'
 import CurveLine1 from '../assests/curveline1.png'
 import Decorter2 from '../assests/Decorator (1).png'
 import Decorter3 from '../assests/Decorator (4).png'
-
 import Center2Image from '../assests/13.png'
 import VegImage from '../assests/vegscreen.png'
+import DotGif from '../assests/rounded.gif'
 const ServiceOfferings = () => {
   return (
 
@@ -34,13 +34,38 @@ const ServiceOfferings = () => {
       </div>
 
       {/* LOWER BOX  */}
-      <div className="md:flex justify-between items-center w-[100%] h-fit bg-[#F8F8F8]">
+      <div className="md:flex relative justify-between items-center w-[100%] h-fit bg-[#F8F8F8]">
 
-        <div className="flex-1 hidden  relative md:flex justify-center items-center bg-[#051c45] h-[25rem] pt-3">
-          <img src={RLImage} alt="" className="h-[15rem] mr-[-2rem]" />
-          <img src={Center2Image} alt="" className="h-[20rem] z-50" />
-          <img src={VegImage} alt="" className="h-[15rem] ml-[-1.7rem] z-50" />
-          <img className=" absolute left-0 top-[0%] h-[7rem]" src={Decorter2} alt="" srcset="" />
+        <div className="flex-1 hidden  relative md:flex justify-center items-center bg-[#26395e] h-[25rem]">
+
+          {/* DECORATOR  */}
+          <div>
+            <img className=" absolute left-0 top-[0%] h-[7rem]" src={Decorter2} alt="" srcset="" />
+          </div>
+
+          {/* MAIN SECTION  */}
+
+          <div className="w-[100%] h-[100%] flex justify-center items-center">
+            {/* CENTER GIF  */}
+
+            <div className="relative h-[22rem]">
+              <img src={DotGif} alt="" className="h-[22rem]" />
+              <img src={RLImage} alt="" className="h-[15rem] absolute top-[4rem] left-[1rem]" />
+              <img src={Center2Image} alt="" className="h-[18rem] absolute top-[3rem] left-[8rem]" />
+              <img src={VegImage} alt="" className="h-[15rem] absolute top-[4rem] right-[-1.5rem]" />
+            </div>
+
+          </div>
+
+          {/* <div className="absolute top-[0rem] right-[25%] ">
+            
+            <img src={DotGif} alt="" className="h-[25rem] bg-cover w-[100%]" />
+
+            <img src={RLImage} alt="" className="h-[15rem] absolute top-[5rem] left-[10%]" />
+            <img src={Center2Image} alt="" className="h-[18rem] absolute top-[4rem] right-[30%]"/>
+
+            <img src={VegImage} alt="" className="h-[15rem] ml-[-1.7rem] z-50 absolute top-[5rem] left-[18.7rem]" />
+          </div> */}
         </div>
 
         <div className="flex-1 pl-[3rem] relative pt-[8rem] pb-[8rem] md:pt-0 md:pb-0">
@@ -49,12 +74,26 @@ const ServiceOfferings = () => {
           <p className="text-xs font-semibold text-[#283D4B] w-[97%] sm:w-[90%]">Tajammul offers a wide range of products to satisfy your cravings, meet your demands, fulfill your desires and, most importantly, make your life easier. It includes everything from groceries to cuisine that is store-friendly. Snacks, fruits and vegetables, meat, milk, drinks and beverages, chocolates and sweets, household needs, party supplies, cosmetics, baby essentials, urgent pharmaceutical deliveries, frozen foods, and much more are all included in this product category. Also, now you can scroll through a variety of clothes and purchase what suits you best with just a few clicks away. </p>
           <img className="absolute right-0 top-[45%] h-[13rem]" src={Decorter3} alt="image" srcset="" />
         </div>
-        <div className="flex  relative md:hidden justify-center items-center bg-[#051c45] h-[25rem] pt-3">
-          <img src={RLImage} alt="" className="h-[15rem] mr-[-2rem]" />
-          <img src={Center2Image} alt="" className="h-[20rem] z-50" />
-          <img src={VegImage} alt="" className="h-[15rem] ml-[-1.7rem] z-50" />
-          <img className=" absolute left-0 top-[0%] h-[7rem]" src={Decorter2} alt="" srcset="" />
+
+
+        <div className="flex  relative md:hidden justify-center items-center bg-[#26395e] h-[25rem] pt-3">
+          <div className="w-[100%] h-[100%] flex justify-center items-center">
+            {/* CENTER GIF  */}
+
+            <div className="relative h-[22rem]">
+              <img src={DotGif} alt="" className="h-[22rem]" />
+              <img src={RLImage} alt="" className="h-[15rem] absolute top-[4rem] left-[0rem]" />
+              <img src={Center2Image} alt="" className="h-[18rem] absolute top-[3rem] left-[6rem]" />
+              <img src={VegImage} alt="" className="h-[15rem] absolute top-[4rem] right-[1.2rem]" />
+            </div>
+
+          </div>
         </div>
+
+        {/* GIF  */}
+
+
+
 
 
       </div>

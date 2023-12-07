@@ -9,7 +9,7 @@ import Message2 from '../assests/msg2.png'
 import MobileNav from '../assests/mobileNav.png'
 import MobileScreen from '../assests/mobilescreen.png'
 import MobileBg from '../assests/bg.png'
-
+import CircleGif from '../assests/circle.gif'
 
 
 const Hero = () => {
@@ -41,7 +41,7 @@ const Hero = () => {
 
         {/* RIGHT SECTION  */}
 
-        <div className='flex-1 relative  flex justify-center lg:justify-end'>
+        <div className='flex-1 relative flex justify-center lg:justify-end'>
 
           <div className='relative mr-0 lg:mr-[8rem]'>
 
@@ -94,6 +94,12 @@ const Hero = () => {
               <img src={Line} alt="" className='' />
             </div>
 
+          </div>
+
+          {/* CIRCLE GIF */}
+
+          <div className='absolute top-[-2rem] lg:right-0 hidden lg:block -z-50'>
+            <img src={CircleGif} alt="" className='h-[25rem]' />
           </div>
 
         </div>
