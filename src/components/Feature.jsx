@@ -53,7 +53,7 @@ const Feature = () => {
             />
           </div>
         </div>
-        <div className="flex-1 flex-wrap pl-[2rem] pt-[3rem]">
+        <div className="flex-1 flex-wrap pl-[10rem] pt-[3rem] max-xl:pl-[2rem]">
           <div>
             <div
               className="text-[#F16427] text-[52px] font-extrabold capitalize max-lg:text-4xl text-left"
