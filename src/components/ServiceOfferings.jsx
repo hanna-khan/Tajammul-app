@@ -51,8 +51,8 @@ const ServiceOfferings = () => {
             <div className="relative h-[22rem]">
               <img src={DotGif} alt="" className="h-[22rem]" />
               <img src={RLImage} alt="" className="h-[15rem] absolute top-[4rem] left-[1rem]" />
-              <img src={Center2Image} alt="" className="h-[18rem] absolute top-[3rem] left-[8rem]" />
-              <img src={VegImage} alt="" className="h-[15rem] absolute top-[4rem] right-[-1.5rem]" />
+              <img src={Center2Image} alt="" className="h-[18rem] absolute z-50 top-[3rem] left-[7rem]" />
+              <img src={VegImage} alt="" className="h-[15rem] absolute top-[4rem] right-[0.3rem]" />
             </div>
 
           </div>

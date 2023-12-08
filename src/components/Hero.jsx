@@ -10,7 +10,7 @@ import MobileNav from '../assests/mobileNav.png'
 import MobileScreen from '../assests/mobilescreen.png'
 import MobileBg from '../assests/bg.png'
 import CircleGif from '../assests/circle.gif'
-
+import Pot from '../assests/pot.svg'
 
 const Hero = () => {
   return (
@@ -78,16 +78,20 @@ const Hero = () => {
           {/* RIGHT SIDE DECORATORS  */}
           <div className='lg:block hidden'>
 
-            <div className='absolute right-[7px] top-[4rem]'>
+            <div className='absolute right-[7px] top-[3rem]'>
               <img src={Message2} alt="" />
             </div>
-            <div className='absolute right-[2rem] top-[5em] font-bold text-white'>
+            <div className='absolute right-[1.8rem] top-[4.3rem] font-bold text-white'>
               <p>Products</p>
             </div>
 
 
-            <div className='absolute right-[20px] top-[10rem]'>
+            <div className='absolute right-[20px] top-[8rem]'>
               <img src={RightCard} alt="" className='h-[10rem]' />
+            </div>
+
+            <div className='absolute right-[3rem] top-[18rem]'>
+              <img src={Pot} alt="" className='h-[6rem]' />
             </div>
 
             <div className='absolute right-[4rem] top-[23.5rem]'>
