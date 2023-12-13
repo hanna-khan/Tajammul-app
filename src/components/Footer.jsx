@@ -9,14 +9,10 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "./About";
-import PolicyBusiness from "./PolicyBusiness";
-import PolicyCustomer from "./PolicyCustomer";
 
 const Footer = () => {
   return (
-    <div id="contact" className="w-[100vw] relative top-[55vh] font-poppins">
+    <div id="contact" className="w-[100vw] relative top-[20vh] font-poppins">
       {/* UPPER PART  */}
       <div className="p-3 mt-8 mb-2">
         <p className="text-[#273b60] font-extrabold text-3xl text-center mb-4">
@@ -57,6 +53,8 @@ const Footer = () => {
             <a href="#contact" className="mb-2 sm:text-base text-xs">
               Contact us
             </a>
+            <Link to="/privacy-policy-business">Privacy Policy Business</Link>
+            <Link to="/privacy-policy-customer">Privacy Policy  Customer</Link>
            
         
           </div>
