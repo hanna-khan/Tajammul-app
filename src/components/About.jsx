@@ -12,7 +12,7 @@ import handle from "../assests/handle.png";
 const About = () => {
   return (
     <>
-      <div className="w-screen pb-10 relative top-[15rem] h-[700px] max-sm:h-[550px] max-[730px]:h-[900px] bg-stone-50 px-[20px]">
+      <div id="about" className="w-screen pb-10 relative top-[15rem] h-[700px] max-sm:h-[550px] max-[730px]:h-[900px] bg-stone-50 px-[20px]">
         <div className="absolute left-[13rem] top-[-16rem] max-lg:hidden">
           <img className="h-[59.5rem]" src={aboutVector} alt="" />
         </div>
