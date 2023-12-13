@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div id="contact" className="w-[100vw] relative top-[20vh] font-poppins">
+    <div id="contact" className="w-[100vw] relative top-[10vh] font-poppins">
       {/* UPPER PART  */}
       <div className="p-3 mt-8 mb-2">
         <p className="text-[#273b60] font-extrabold text-3xl text-center mb-4">
