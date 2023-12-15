@@ -38,10 +38,7 @@ const ServiceOfferings = () => {
 
         <div className="flex-1 hidden  relative md:flex justify-center items-center bg-[#26395e] h-[25rem]">
 
-          {/* DECORATOR  */}
-          <div>
-            <img className=" absolute left-0 top-[0%] h-[7rem]" src={Decorter2} alt="" srcset="" />
-          </div>
+        
 
           {/* MAIN SECTION  */}
 
