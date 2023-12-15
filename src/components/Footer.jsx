@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import FooterImage from "../assests/footer.png";
-import FooterImage2 from "../assests/yellowlayer.svg";
+import AtTheRate from "../assests/attherate.png";
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -9,16 +9,16 @@ const Footer = () => {
   return (
     <div data-aos='' id="contact" className="w-[100vw] relative top-[8vh] font-poppins">
       {/* UPPER PART  */}
-      <div className="p-3 mt-8 mb-2 z-50">
-        <p className="text-[#273b60] font-extrabold text-3xl text-center mb-4">
+      <div className="p-3 mt-8 mb-2 z-50 flex justify-center items-center flex-col">
+        <p className="text-[#273b60] font-extrabold text-3xl  mb-4">
           Get In Touch
         </p>
-        <p className="text-[#273b60] font-bold text-2xl text-center">@</p>
+        <img src={AtTheRate} className="text-center h-[4rem] flex justify-center items-center"/>
       </div>
 
       {/* MAIN FOOTER  */}
 
-      <div className="bg-gradient-to-r from-blue-800 via-blue-900 to-gray-900 h-[26rem] relative">
+      <div className="bg-gradient-to-r from-blue-800 via-blue-900 to-gray-900 h-[26rem] relative -z-50">
         {/* UPPER EMAIL  */}
         <div className="text-center pt-4">
           <p className="text-[#273B60]">info@tajammul.app</p>
@@ -112,13 +112,13 @@ const Footer = () => {
       </div>
 
       {/* FOOTER TOP IMAGE  */}
-      {/* <div className="absolute top-0 -z-50 w-[100vw] bg-slate-100">
+      <div className="absolute top-0 -z-50 w-[100vw] bg-gradient-to-r from-blue-800 via-blue-900 to-gray-900">
         <img
-          src={FooterImage2}
+          src={FooterImage}
           alt=""
-          className="h-[7rem] bg-cover w-[100vw]"
+          className="h-[10rem] bg-cover w-[100vw] rotate-180"
         />
-      </div> */}
+      </div>
     </div>
   );
 };
