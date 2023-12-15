@@ -3,9 +3,9 @@ import React from "react";
 import yellowCircle from "../assests/Ellipse813.png";
 import orangeCircle from "../assests/Ellipse807.png";
 import vector from "../assests/Vector1.png";
-import discover from "../assests/discover.jpg";
-import payment from "../assests/payment.jpg";
-import shopping from "../assests/shopping.jpg";
+import discover from "../assests/discover.svg";
+import payment from "../assests/makePayment.svg";
+import shopping from "../assests/EnjoyShopping.svg";
 import "./Feature.css";
 
 const Feature = () => {
@@ -30,13 +30,12 @@ const Feature = () => {
 
       <div className="flex xl:justify-between justify-center xl:flex-row flex-col ">
         <div className="max-xl:relative max-xl:right-[8rem] max-sm:right-[6rem] ml-[2rem]xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]">
-          <div className="h-[18rem] w-[18rem]  max-sm:h-[12rem] max-sm:w-[12rem] mb-[1rem] rounded-2xl bg-white px-5 pb-20 pt-9 text-[20px] font-bold  text-slate-700 drop-shadow-lg">
+          <div className="h-[18rem] w-[18rem]  max-sm:h-[12rem] max-sm:w-[12rem]">
             <div>
-              <div >
+              <div className="relative top-[1rem]">
                 <img className={`h-[100%] w-[100%] transition duration-300 ease-in-out hover:scale-110`} src={discover} alt="" />
-                <p className="text-center mt-2">Discover</p>
               </div>
-              <div className="relative left-[14rem] max-sm:left-[9rem] rounded-2xl top-[-6rem] h-[18rem] w-[18rem] max-sm:h-[12rem] max-sm:w-[12rem]">
+              <div className="relative left-[12rem] max-sm:left-[10rem] max-sm:top-[-6rem] rounded-2xl top-[-10rem] h-[18rem] w-[18rem] max-sm:h-[12rem] max-sm:w-[12rem]">
                 <img
                   className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg transition duration-300 ease-in-out hover:scale-110"
                   src={shopping}
@@ -45,7 +44,7 @@ const Feature = () => {
               </div>
             </div>
           </div>
-          <div className="max-sm:h-[12rem] max-sm:w-[12rem] h-[18rem] w-[18rem] text-[20px] font-bold  text-slate-700">
+          <div className="max-sm:h-[12rem] max-sm:w-[12rem] h-[18rem] w-[18rem] relative  top-[-1rem]">
             <img
               className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg transition duration-300 ease-in-out hover:scale-110"
               src={payment}
