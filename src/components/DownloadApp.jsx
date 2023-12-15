@@ -5,7 +5,7 @@ import React from "react";
 const DownloadApp = () => {
   return (
     <>
-      <div className="relative top-[20rem] h-[100%] w-screen flex justify-center items-center mt-[2rem]">
+      <div data-aos='fade-right' className="relative top-[20rem] h-[100%] w-screen flex justify-center items-center mt-[2rem]">
         <div className="w-full bg-[#FDCE0C] overflow-visible">
             <div className="container m-auto justify-around">
               <div className="flex max-md:flex-col">

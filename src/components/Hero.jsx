@@ -11,11 +11,12 @@ import MobileScreen from '../assests/mobilescreen.png'
 import MobileBg from '../assests/bg.png'
 import CircleGif from '../assests/circle.gif'
 import Pot from '../assests/pot.svg'
+import Cart2 from '../assests/cart2.svg'
 
 const Hero = () => {
   return (
 
-    <div className='w-screen relative top-[5rem] font-poppins'>
+    <div data-aos='fade-left' className='w-screen relative top-[5rem] font-poppins'>
 
 
       {/* MAIN HERO SECTION CODE  */}

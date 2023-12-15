@@ -10,7 +10,7 @@ import "./Feature.css";
 
 const Feature = () => {
   return (
-    <div className="w-screen pb-10 relative top-[19rem]">
+    <div data-aos='fade-right' id="feature" className="w-screen pb-10 relative top-[19rem]">
       <div className="absolute left-[42rem] top-[-4rem] max-lg:hidden">
         <img className="h-[53rem] max-lg:hidden" src={vector} alt="" />
       </div>

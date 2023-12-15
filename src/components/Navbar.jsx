@@ -5,7 +5,7 @@ import Circle from '../assests/cicle.png'
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { navLinks } from '../constants/navData';
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const [showNavLinks, setshowNavLinks] = useState(false)
@@ -29,7 +29,9 @@ const Navbar = () => {
                         {
                             navLinks?.map((item, index) => {
                                 return (
-                                    <p key={index + 1} className='text-[#313131] text-sm lg:text-base font-poppins cursor-pointer'>{item?.title}</p>
+                                    <a href={item.link}>
+                                        <p key={index + 1} className='text-[#313131] text-sm lg:text-base font-poppins cursor-pointer'>{item?.title}</p>
+                                    </a>
                                 )
                             })
                         }
@@ -42,7 +44,9 @@ const Navbar = () => {
                                 {
                                     navLinks?.map((item, index) => {
                                         return (
-                                            <p key={index + 1} className='text-[#313131] mb-2 text-sm font-poppins cursor-pointer'>{item?.title}</p>
+                                            <Link to={item.link}>
+                                                <p key={index + 1} className='text-[#313131] mb-2 text-sm font-poppins cursor-pointer'>{item?.title}</p>
+                                            </Link>
                                         )
                                     })
                                 }

@@ -1,12 +1,12 @@
 export const navLinks = 
 [
 
-    {title:"Home"},
+    {title:"Home",link:"/"},
 
-    {title:"About us"},
+    {title:"About us",link:"#about"},
 
-    {title:"Contact us"},
+    {title:"Contact us",link:"#contact"},
 
-    {title:"Features"}
+    {title:"Features",link:"#feature"}
 
 ]

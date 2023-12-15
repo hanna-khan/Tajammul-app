@@ -1,20 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import FooterImage from "../assests/footer.png";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+import FooterImage2 from "../assests/yellowlayer.svg";
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div id="contact" className="w-[100vw] relative top-[10vh] font-poppins">
+    <div data-aos='' id="contact" className="w-[100vw] relative top-[8vh] font-poppins">
       {/* UPPER PART  */}
-      <div className="p-3 mt-8 mb-2">
+      <div className="p-3 mt-8 mb-2 z-50">
         <p className="text-[#273b60] font-extrabold text-3xl text-center mb-4">
           Get In Touch
         </p>
@@ -40,8 +35,8 @@ const Footer = () => {
 
           <div className="flex flex-col">
             <p className="mb-2 font-bold sm:text-base text-xs">Our Company</p>
-           
-             <a href="#about" className="mb-2 sm:text-base text-xs">
+
+            <a href="#about" className="mb-2 sm:text-base text-xs">
               About
             </a>
             <a href="#serviceOfferings" className="mb-2 sm:text-base text-xs">
@@ -55,8 +50,8 @@ const Footer = () => {
             </a>
             <Link to="/privacy-policy-business">Privacy Policy Business</Link>
             <Link to="/privacy-policy-customer">Privacy Policy  Customer</Link>
-           
-        
+
+
           </div>
 
           <div>
@@ -107,6 +102,7 @@ const Footer = () => {
           />
         </div>
 
+
         {/* FOOTER COPYRIGHT  */}
         <div className=" absolute bottom-2">
           <p className="text-[#273B60] text-center w-screen text-sm">
@@ -114,6 +110,15 @@ const Footer = () => {
           </p>
         </div>
       </div>
+
+      {/* FOOTER TOP IMAGE  */}
+      {/* <div className="absolute top-0 -z-50 w-[100vw] bg-slate-100">
+        <img
+          src={FooterImage2}
+          alt=""
+          className="h-[7rem] bg-cover w-[100vw]"
+        />
+      </div> */}
     </div>
   );
 };

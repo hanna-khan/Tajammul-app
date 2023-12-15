@@ -12,7 +12,7 @@ import "./Feature.css";
 
 const Feature = () => {
   return (
-    <div className="w-screen pb-10 relative top-[19rem] bg-stone-50 pl-[2rem] pt-[3rem]">
+    <div data-aos='fade-left' className="w-screen pb-10 relative top-[19rem] bg-stone-50 pl-[2rem] pt-[3rem]">
       <div className="absolute left-[44.2rem] top-[0rem] max-lg:hidden">
         <img className="h-[43rem] max-lg:hidden" src={merchantVector} alt="" />
       </div>
