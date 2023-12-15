@@ -29,10 +29,10 @@ const Feature = () => {
       </div>
 
       <div className="flex xl:justify-between justify-center xl:flex-row flex-col ">
-        <div className="max-xl:relative max-xl:right-[8rem] max-sm:right-[6rem] ml-[2rem]xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]">
+        <div className="max-xl:relative max-xl:right-[6rem] max-sm:right-[6rem] ml-[2rem]xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]">
           <div className="h-[18rem] w-[18rem]  max-sm:h-[12rem] max-sm:w-[12rem]">
             <div>
-              <div className="relative top-[1rem]">
+              <div className="relative top-[1rem] max-sm:left-[2rem]">
                 <img className={`h-[100%] w-[100%] transition duration-300 ease-in-out hover:scale-110`} src={discover} alt="" />
               </div>
               <div className="relative left-[12rem] max-sm:left-[10rem] max-sm:top-[-6rem] rounded-2xl top-[-10rem] h-[18rem] w-[18rem] max-sm:h-[12rem] max-sm:w-[12rem]">
@@ -44,7 +44,7 @@ const Feature = () => {
               </div>
             </div>
           </div>
-          <div className="max-sm:h-[12rem] max-sm:w-[12rem] h-[18rem] w-[18rem] relative  top-[-1rem]">
+          <div className="max-sm:h-[12rem] max-sm:w-[12rem] h-[18rem] w-[18rem] relative  top-[-1rem] max-sm:left-[2rem]">
             <img
               className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg transition duration-300 ease-in-out hover:scale-110"
               src={payment}
