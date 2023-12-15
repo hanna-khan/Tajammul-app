@@ -22,7 +22,7 @@ const Hero = () => {
       <div className='lg:flex justify-between w-[screen]'>
 
         {/* LEFT SECTION  */}
-        <div className='flex-1 pl-[2rem] sm:pl-[6.7rem] lg:mb-0 mb-[2rem]'>
+        <div className='flex-1 pl-[4rem] sm:pl-[6.7rem] lg:mb-0 mb-[2rem]'>
 
           {/* TEXT  */}
           <div className=''>
