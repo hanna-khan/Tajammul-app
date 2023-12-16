@@ -8,12 +8,13 @@ import mobile from "../assests/mobile.png";
 import bag from "../assests/orangeBag.png";
 import smile from "../assests/smile.png";
 import handle from "../assests/handle.png";
+import aboutgif from "../assests/aboutgif.gif";
 const About = () => {
   return (
     <>
-      <div data-aos='fade-right' id="about" className="w-screen pb-10 relative top-[15rem] h-[700px] max-sm:h-[550px] max-[730px]:h-[900px] bg-stone-50 px-[20px]">
+      <div data-aos='fade-right' id="about" className="w-screen pb-[8rem] relative top-[15rem] bg-stone-50 px-[20px]">
         <div className="absolute left-[13rem] top-[-16rem] max-lg:hidden">
-          <img className="h-[59.5rem]" src={aboutVector} alt="" />
+          <img className="h-[66rem]" src={aboutVector} alt="" />
         </div>
         <div className="absolute left-[13.5rem] top-[-7rem] max-lg:hidden">
           <img className="h-[1rem]" src={yellowCircle} alt="" />
@@ -32,10 +33,10 @@ const About = () => {
             About us
           </div>
           <div className="flex container m-auto flex-wrap max-[730px]:flex-col-reverse">
-            <div className="flex-1 max-sm:hidden relative top-[4rem] max-w-[50%] max-[730px]:m-auto max-[400px]:m-0 max-[730px]:block">
-              {" "}
+            <div className="flex-1 relative top-[4rem] max-w-[50%] max-[730px]:m-auto max-[400px]:m-0 max-[730px]:block max-[400px]:left-[5rem]">
+            <img src={aboutgif} alt="" className="h-[26rem] relative top-[6rem] left-[2rem] max-lg:h-[16rem]  max-lg:top-[4rem]  max-lg:left-[0rem] max-sm:h-[12rem]" />
               <img
-                className="w-[21rem] h-[30rem] max-lg:w-[15rem] max-lg:h-[20rem] max-[730px]:h-[22rem] max-[730px]:w-[16rem] pr-2"
+                className="absolute top-[0rem] w-[24rem] h-[33rem] max-lg:w-[15rem] max-lg:h-[20rem] max-[730px]:h-[22rem] max-[730px]:w-[16rem] pr-2 max-sm:h-[16rem] max-sm:w-[12rem]"
                 src={mobile}
                 alt="mobile image"
               />
@@ -44,7 +45,7 @@ const About = () => {
               <div className="mt-[120px] max-lg:mt-[20px] w-[400px] flex">
                 <img  className="h-[6rem] max-md:h-[4rem]" src={bag} alt="" />
                 <img className="h-[2rem] relative top-[-1rem] left-[-4.8rem] max-md:left-[-3.5rem] max-md:h-[1.5rem]" src={handle} alt="" />
-                <img  className=" max-md:h-[2rem]  max-md:top-[1.5rem]  max-md:left-[-6rem] h-[3rem] relative top-[2rem] left-[-8.52rem]" src={smile} alt="" />
+                <img  className="max-md:h-[2rem]  max-md:top-[1.5rem]  max-md:left-[-6rem] h-[3rem] relative top-[2rem] left-[-8.52rem]" src={smile} alt="" />
   
 
                 <span className="ml-[-5rem] text-[#273B60] text-[55px] font-semibold text-center max-lg:text-4xl mr-2 max-sm:text-[1.75rem]">

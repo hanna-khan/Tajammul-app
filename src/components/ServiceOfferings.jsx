@@ -8,6 +8,8 @@ import Decorter2 from '../assests/Decorator (1).png'
 import Decorter3 from '../assests/Decorator (4).png'
 import Center2Image from '../assests/13.png'
 import VegImage from '../assests/vegscreen.png'
+import serviceGif from '../assests/servicegif.gif'
+
 import DotGif from '../assests/rounded.gif'
 const ServiceOfferings = () => {
   return (
@@ -24,9 +26,10 @@ const ServiceOfferings = () => {
         </div>
 
         <div className="flex-1 relative flex justify-center  items-center bg-[#051c45] h-[25rem] pt-3">
-          <img src={RLImage} alt="" className="h-[15rem] mr-[-2rem]" />
-          <img src={RICenter} alt="" className="h-[20rem] z-50" />
-          <img src={RImage} alt="" className="h-[15rem] ml-[-1.7rem] z-50" />
+        <img src={serviceGif} alt="" className="h-[24rem] relative left-[10rem] " />
+          <img src={RLImage} alt="" className="h-[13rem] mr-[-2rem] relative right-[11.5rem]" />
+          <img src={RICenter} alt="" className="h-[18rem] z-50 relative right-[11.5rem]" />
+          <img src={RImage} alt="" className="h-[13rem] ml-[-1.7rem] z-50 relative right-[11.5rem]" />
           <img className=" absolute right-0 top-[30%] h-[10rem]" src={Decorter1} alt="" srcset="" />
           <img src={CurveLine1} alt="" className=" absolute top-0 h-[100%]" />
         </div>
