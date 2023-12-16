@@ -7,22 +7,21 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div data-aos='' id="contact" className="w-[100vw] relative top-[8vh] font-poppins">
+    <div data-aos='' id="contact" className="w-[100vw] relative top-[7vh] font-poppins">
       {/* UPPER PART  */}
-      <div className="p-3 mt-8 mb-2 z-50 flex justify-center items-center flex-col">
-        <p className="text-[#273b60] font-extrabold text-3xl  mb-4">
+      <div className="mt-8 z-50 flex justify-center items-center flex-col">
+        <p className="text-[#273b60] font-extrabold text-3xl  mb-4 pt-[1rem]">
           Get In Touch
         </p>
-        <img src={AtTheRate} className="text-center h-[4rem] flex justify-center items-center"/>
+        <p className="text-[#273B60] text-[0.7rem] relative top-[1.5rem]">info@tajammul.app</p>
+        <img src={AtTheRate} className="text-center h-[4rem] flex justify-center relative top-[-3rem] items-center"/>
       </div>
 
       {/* MAIN FOOTER  */}
 
-      <div className="bg-gradient-to-r from-blue-800 via-blue-900 to-gray-900 h-[26rem] relative -z-50">
+      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-blue-900 h-[24rem] relative -z-50">
         {/* UPPER EMAIL  */}
-        <div className="text-center pt-4">
-          <p className="text-[#273B60]">info@tajammul.app</p>
-        </div>
+       
 
         {/* MAIN LINKS  */}
         <div className="flex justify-center items-start gap-x-10 sm:pt-[2rem] pt-[1rem] pl-3 pr-3 sm:pl-0 sm:pr-0 text-white">
@@ -112,7 +111,7 @@ const Footer = () => {
       </div>
 
       {/* FOOTER TOP IMAGE  */}
-      <div className="absolute top-0 -z-50 w-[100vw] bg-gradient-to-r from-blue-800 via-blue-900 to-gray-900">
+      <div className="absolute top-0 -z-50 w-[100vw] bg-gradient-to-r from-gray-900 via-blue-900 to-blue-900">
         <img
           src={FooterImage}
           alt=""
