@@ -23,7 +23,7 @@ const Footer = () => {
         <p className="text-[#273b60] font-extrabold text-3xl  mb-4 pt-[1rem]">
           Get In Touch
         </p>
-        <p className="text-[#273B60] text-[0.7rem] relative top-[1.5rem]">
+        <p className="text-[#273B60] max-sm:text-[7px] text-[0.7rem] relative top-[1.5rem]">
           info@tajammul.app
         </p>
         <img
@@ -40,14 +40,14 @@ const Footer = () => {
         {/* MAIN LINKS  */}
         <div className="flex justify-center items-start gap-x-10 sm:pt-[2rem] pt-[1rem] pl-3 pr-3 sm:pl-0 sm:pr-0 text-white">
           <div>
-            <p className="font-bold text-lg mb-2 sm:text-base text-xs">
+            <p className="font-bold text-lg mb-2 sm:text-base">
               Contact Us
             </p>
             <p className="text-xs">@ info@tajammul.pk</p>
           </div>
 
           <div className="flex flex-col">
-            <p className="mb-2 font-bold text-lg sm:text-base text-xs">
+            <p className="mb-2 font-bold text-lg sm:text-base">
               Our Company
             </p>
 
