@@ -8,13 +8,15 @@ import mobile from "../assests/mobile.png";
 import bag from "../assests/orangeBag.png";
 import smile from "../assests/smile.png";
 import handle from "../assests/handle.png";
+import Logo from '../assests/tajamul.png'
+
 import aboutgif from "../assests/aboutgif.gif";
 const About = () => {
   return (
     <>
       <div data-aos='fade-right' id="about" className="font-poppins w-screen pb-[8rem] relative top-[15rem] bg-stone-50 px-[20px]">
         <div className="absolute left-[13rem] top-[-16rem] max-lg:hidden">
-          <img className="h-[60rem]" src={aboutVector} alt="" />
+          <img className="h-[53.5rem]" src={aboutVector} alt="" />
         </div>
         <div className="absolute left-[13.5rem] top-[-7rem] max-lg:hidden">
           <img className="h-[1rem]" src={yellowCircle} alt="" />
@@ -41,19 +43,11 @@ const About = () => {
                 alt="mobile image"
               />
             </div>
-            <div className="flex-1 max-[730px]:m-auto max-[730px]:block">
-              <div className="mt-[120px] max-lg:mt-[20px] w-[400px] flex">
-                <img  className="h-[6rem] max-md:h-[4rem]" src={bag} alt="" />
-                <img className="h-[2rem] relative top-[-1rem] left-[-4.8rem] max-md:left-[-3.5rem] max-md:h-[1.5rem]" src={handle} alt="" />
-                <img  className="max-md:h-[2rem]  max-md:top-[1.5rem]  max-md:left-[-6rem] h-[3rem] relative top-[2rem] left-[-8.52rem]" src={smile} alt="" />
-  
-
-                <span className="ml-[-5rem] text-[#273B60] text-3xl font-semibold text-center ">
-                  tajammul.app
-                </span>
-             
-              </div>
-              <div className="text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide">
+            <div className="flex-1 max-[730px]:m-auto max-[730px]:block mt-[8rem]">
+              <div>
+                        <img src={Logo} alt="" className='lg:h-[3rem] h-[2rem]' />
+                    </div>
+              <div className="text-[#273b60] text-sm mb-2 w-[90%] sm:w-[90%] lg:w-[80%] tracking-wide">
                 Tajammul is an online solution for online groceries, food, and
                 daily needs delivery. More importantly, it provides a platform
                 for consumers to book services based on their current location.
@@ -65,8 +59,8 @@ const About = () => {
               </div>
             </div>
           </div>
+          </div>
         </div>
-      </div>
     </>
   );
 };
