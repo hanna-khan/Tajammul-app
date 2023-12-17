@@ -50,23 +50,22 @@ const Footer = () => {
             <p className="mb-2 font-bold text-lg sm:text-base max-sm:text-[14px]">
               Our Company
             </p>
-
-            <a href="#about" className="mb-2 text-xs max-sm:text-[10px]">
+            <a href="#about" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer">
               About
             </a>
-            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px]">
+            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer">
               Product
             </a>
-            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px]">
+            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer">
               Services
             </a>
-            <a href="#contact" className="mb-2 text-xs max-sm:text-[10px]">
+            <a href="#contact" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer">
               Contact us
             </a>
-            <Link to="/privacy-policy-business" className="text-xs max-sm:text-[10px]">
+            <Link to="/privacy-policy-business" className="text-xs pb-2 cursor-pointer max-sm:text-[10px]">
               Privacy Policy Business
             </Link>
-            <Link to="/privacy-policy-customer" className="text-xs max-sm:text-[10px]">
+            <Link to="/privacy-policy-customer" className="text-xs cursor-pointer max-sm:text-[10px]">
               Privacy Policy Customer
             </Link>
           </div>
