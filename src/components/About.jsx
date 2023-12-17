@@ -39,23 +39,23 @@ const About = () => {
             About us
           </div>
           <div className="flex container m-auto flex-wrap max-[730px]:flex-col-reverse">
-            <div className="flex-1 relative top-[4rem] max-w-[50%] max-[730px]:m-auto max-[400px]:m-0 max-[730px]:block max-[400px]:left-[5rem]">
+            <div className="flex-1 relative top-[4rem] max-w-[50%] max-[730px]:m-auto max-[400px]:m-0 max-[730px]:block max-[400px]:left-[5rem] max-md:top-[0rem]">
               <img
                 src={aboutgif}
                 alt=""
-                className="h-[20rem] relative top-[1rem] left-[18rem] max-lg:h-[16rem]  max-lg:top-[4rem]  max-lg:left-[0rem] max-sm:h-[12rem]"
+                className="h-[20rem] max-md:left-[0px] relative top-[1rem] left-[18rem] max-lg:h-[16rem]  max-lg:top-[6rem]  max-lg:left-[4rem] max-sm:h-[12rem] max-xl:left-[5rem]"
               />
               <img
                 className="absolute top-[-4rem] left-[18rem]
                 w-[18rem] h-[24rem] 
-                max-lg:w-[15rem] max-lg:h-[20rem] max-lg:top-[2rem] max-xl:left-[5rem] 
+                max-lg:w-[15rem] max-lg:h-[20rem] max-lg:top-[2rem] max-xl:left-[5rem] max-md:left-[0rem] 
                 pr-2
                 max-sm:h-[16rem] max-sm:w-[12rem] max-sm:left-[0rem] "
                 src={mobile}
                 alt="mobile image"
               />
             </div>
-            <div className="flex-1 max-[730px]:m-auto max-[730px]:block mt-[8rem]">
+            <div className="flex-1 max-[730px]:m-auto max-[730px]:block mt-[8rem] max-md:mt-[4rem] ml-4">
               <div>
                 <img src={Logo} alt="" className="lg:h-[3rem] h-[2rem]" />
               </div>
