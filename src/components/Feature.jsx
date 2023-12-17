@@ -11,19 +11,17 @@ import "./Feature.css";
 const Feature = () => {
   return (
     <div data-aos='fade-right' id="feature" className="w-screen pb-10 relative top-[19rem]">
-      <div className="absolute left-[42rem] top-[-4rem] max-lg:hidden">
-        <img className="h-[53rem] max-lg:hidden" src={vector} alt="" />
+      <div className="absolute left-[32rem] top-[-4rem] max-lg:hidden">
+        <img className="h-[48rem] max-lg:hidden" src={vector} alt="" />
       </div>
-      <div className="absolute left-[76.2rem] top-[-2rem] max-lg:hidden">
+      <div className="absolute left-[63rem] top-[-2rem] max-lg:hidden">
         <img className="h-[1rem]" src={orangeCircle} alt="" />
       </div>
-      <div className="absolute left-[58.5rem] top-[10rem] max-lg:hidden">
+      <div className="absolute left-[44.4rem] top-[10rem] max-lg:hidden">
         <img className="h-[1rem]" src={yellowCircle} alt="" />
       </div>
 
-      <div className="absolute left-[56.8rem] top-[40rem] max-lg:hidden">
-        <img className="h-[.75rem]" src={yellowCircle} alt="" />
-      </div>
+     
       <div className="text-yellow-400 capitalize text-center text-4xl font-bold pb-3">
         Features
       </div>

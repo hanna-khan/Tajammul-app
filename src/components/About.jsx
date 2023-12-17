@@ -20,7 +20,7 @@ const About = () => {
         className="font-poppins w-screen pb-[8rem] relative top-[15rem] bg-stone-50 px-[20px]"
       >
         <div className="absolute left-[13rem] top-[-16rem] max-lg:hidden">
-          <img className="h-[53.5rem]" src={aboutVector} alt="" />
+          <img className="h-[49rem]" src={aboutVector} alt="" />
         </div>
         <div className="absolute left-[13.5rem] top-[-7rem] max-lg:hidden">
           <img className="h-[1rem]" src={yellowCircle} alt="" />
