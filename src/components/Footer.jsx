@@ -13,13 +13,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div
-      data-aos=""
-      id="contact"
-      className="w-[100vw] relative top-[7vh] font-poppins"
-    >
+    <div data-aos="" id="contact" className="w-[100vw] relative top-[7vh] font-poppins ">
       {/* UPPER PART  */}
-      <div className="mt-8 z-50 flex justify-center items-center flex-col ">
+      <div className="mt-8 z-50 flex justify-center items-center flex-col mb-[0.69rem] ">
         <p className="text-[#273b60] font-extrabold text-3xl mb-4 pt-[1rem]">
           Get In Touch
         </p>
@@ -34,11 +30,11 @@ const Footer = () => {
 
       {/* MAIN FOOTER  */}
 
-      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-blue-900 h-[24rem] relative">
+      <div className=" h-[24rem] relative bg-gradient-to-r from-gray-900 via-blue-900 to-blue-900">
         {/* UPPER EMAIL  */}
 
         {/* MAIN LINKS  */}
-        <div className="flex justify-center items-start gap-x-10 sm:pt-[2rem] pt-[1rem] pl-3 pr-3 sm:pl-0 sm:pr-0 text-white">
+        <div className="flex justify-center bg-gradient-to-r from-gray-900 via-blue-900 to-blue-900 items-start gap-x-10 sm:pt-[2rem] pt-[1rem] pl-3 pr-3 sm:pl-0 sm:pr-0 text-white w-screen">
           <div className="max-sm:pt-[1rem]">
             <p className="font-bold text-lg mb-2 sm:text-base max-sm:text-[14px]">
               Contact Us
