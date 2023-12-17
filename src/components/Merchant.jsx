@@ -14,7 +14,7 @@ const Feature = () => {
   return (
     <div data-aos='fade-left' className="w-screen pb-10 relative top-[19rem] bg-stone-50 pl-[2rem] pt-[3rem]">
       <div className="absolute left-[44.2rem] top-[0rem] max-lg:hidden">
-        <img className="h-[43rem] max-lg:hidden" src={merchantVector} alt="" />
+        <img className="h-[43.5rem] max-lg:hidden" src={merchantVector} alt="" />
       </div>
       <div className="absolute left-[45.3rem] top-[2rem] max-lg:hidden">
         <img className="h-[1rem]" src={orangeCircle} alt="" />
