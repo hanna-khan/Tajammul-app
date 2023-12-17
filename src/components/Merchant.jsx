@@ -17,27 +17,27 @@ const Feature = () => {
   return (
     <div data-aos='fade-left' className="w-screen pb-10 relative top-[19rem] bg-stone-50 pl-[2rem] pt-[3rem]">
       <div className="absolute left-[44.2rem] top-[0rem] max-lg:hidden">
-        <img className="h-[43.5rem] max-lg:hidden" src={merchantVector} alt="" />
+        <img className="h-[43.5rem] max-xl:hidden" src={merchantVector} alt="" />
       </div>
-      <div className="absolute left-[45.6rem] top-[2rem] max-lg:hidden">
+      <div className="absolute left-[45.6rem] top-[2rem] max-xl:hidden">
         <img className="h-[0.7rem]" src={orangeCircle} alt="" />
       </div>
-      <div className="absolute left-[55rem] top-[6rem] max-lg:hidden">
+      <div className="absolute left-[55rem] top-[6rem] max-xl:hidden">
         <img className="h-[0.7rem]" src={yellowCircle} alt="" />
       </div>
-      <div className="absolute left-[68.5rem] top-[42.7rem] max-lg:hidden">
+      <div className="absolute left-[68.5rem] top-[42.7rem] max-xl:hidden">
         <img className="h-[0.7rem]" src={yellowCircle} alt="" />
       </div>
-      <div className="absolute left-[56rem] top-[10rem] max-lg:hidden">
+      <div className="absolute left-[56rem] top-[10rem] max-xl:hidden">
         <img className="h-[1rem]" src={emptyCircle} alt="" />
       </div>
-      <div className="absolute left-[56.6rem] top-[10rem] max-lg:hidden">
+      <div className="absolute left-[56.6rem] top-[10rem] max-xl:hidden">
         <img className="h-[0.5rem]" src={orangeCircle} alt="" />
       </div>
-      <div className="absolute left-[56rem] top-[33rem] max-lg:hidden">
+      <div className="absolute left-[56rem] top-[33rem] max-xl:hidden">
         <img className="h-[1rem]" src={orangeEmptyCircle} alt="" />
       </div>
-      <div className="absolute left-[55.6rem] top-[33.5rem] max-lg:hidden">
+      <div className="absolute left-[55.6rem] top-[33.5rem] max-xl:hidden">
         <img className="h-[0.5rem]" src={arrow} alt="" />
       </div>
 
