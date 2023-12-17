@@ -8,13 +8,17 @@ import mobile from "../assests/mobile.png";
 import bag from "../assests/orangeBag.png";
 import smile from "../assests/smile.png";
 import handle from "../assests/handle.png";
-import Logo from '../assests/tajamul.png'
+import Logo from "../assests/tajamul.png";
 
 import aboutgif from "../assests/aboutgif.gif";
 const About = () => {
   return (
     <>
-      <div data-aos='fade-right' id="about" className="font-poppins w-screen pb-[8rem] relative top-[15rem] bg-stone-50 px-[20px]">
+      <div
+        data-aos="fade-right"
+        id="about"
+        className="font-poppins w-screen pb-[8rem] relative top-[15rem] bg-stone-50 px-[20px]"
+      >
         <div className="absolute left-[13rem] top-[-16rem] max-lg:hidden">
           <img className="h-[53.5rem]" src={aboutVector} alt="" />
         </div>
@@ -36,28 +40,25 @@ const About = () => {
           </div>
           <div className="flex container m-auto flex-wrap max-[730px]:flex-col-reverse">
             <div className="flex-1 relative top-[4rem] max-w-[50%] max-[730px]:m-auto max-[400px]:m-0 max-[730px]:block max-[400px]:left-[5rem]">
-            <img src={aboutgif} alt="" className="h-[26rem] relative top-[6rem] left-[2rem] max-lg:h-[16rem]  max-lg:top-[4rem]  max-lg:left-[0rem] max-sm:h-[12rem]" />
+              <img
+                src={aboutgif}
+                alt=""
+                className="h-[20rem] relative top-[1rem] left-[18rem] max-lg:h-[16rem]  max-lg:top-[4rem]  max-lg:left-[0rem] max-sm:h-[12rem]"
+              />
               <img
                 className="absolute top-[-4rem] left-[18rem]
-                
                 w-[18rem] h-[24rem] 
-                
-                max-lg:w-[15rem] max-lg:h-[20rem] 
-                
-                max-[730px]:h-[22rem] max-[730px]:w-[16rem] 
-                
-                pr-2 
-                
-                
-                max-sm:h-[16rem] max-sm:w-[12rem]"
+                max-lg:w-[15rem] max-lg:h-[20rem] max-lg:top-[2rem] max-xl:left-[5rem] 
+                pr-2
+                max-sm:h-[16rem] max-sm:w-[12rem] max-sm:left-[0rem] "
                 src={mobile}
                 alt="mobile image"
               />
             </div>
             <div className="flex-1 max-[730px]:m-auto max-[730px]:block mt-[8rem]">
               <div>
-                        <img src={Logo} alt="" className='lg:h-[3rem] h-[2rem]' />
-                    </div>
+                <img src={Logo} alt="" className="lg:h-[3rem] h-[2rem]" />
+              </div>
               <div className="text-[#273b60] text-sm mb-2 w-[90%] sm:w-[90%] lg:w-[80%] tracking-wide">
                 Tajammul is an online solution for online groceries, food, and
                 daily needs delivery. More importantly, it provides a platform
@@ -70,8 +71,8 @@ const About = () => {
               </div>
             </div>
           </div>
-          </div>
         </div>
+      </div>
     </>
   );
 };
