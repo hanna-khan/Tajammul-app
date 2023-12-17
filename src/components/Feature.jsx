@@ -6,19 +6,32 @@ import vector from "../assests/Vector1.png";
 import discover from "../assests/discover.svg";
 import payment from "../assests/makePayment.svg";
 import shopping from "../assests/EnjoyShopping.svg";
+import emptyCircle from "../assests/Ellipse1Outline.png";
 import "./Feature.css";
 
 const Feature = () => {
   return (
     <div data-aos='fade-right' id="feature" className="w-screen pb-10 relative top-[19rem]">
-      <div className="absolute left-[32rem] top-[-4rem] max-lg:hidden">
+      <div className="absolute left-[32rem] top-[-4rem] max-lg:hidden z-0">
         <img className="h-[48rem] max-lg:hidden" src={vector} alt="" />
       </div>
       <div className="absolute left-[63rem] top-[-2rem] max-lg:hidden">
-        <img className="h-[1rem]" src={orangeCircle} alt="" />
+        <img className="h-[0.7rem]" src={orangeCircle} alt="" />
       </div>
       <div className="absolute left-[44.4rem] top-[10rem] max-lg:hidden">
-        <img className="h-[1rem]" src={yellowCircle} alt="" />
+        <img className="h-[0.7rem]" src={yellowCircle} alt="" />
+      </div>
+      <div className="absolute left-[30rem] top-[10rem] max-lg:hidden">
+        <img className="h-[1rem]" src={emptyCircle} alt="" />
+      </div>
+      <div className="absolute left-[30.6rem] top-[10rem] max-lg:hidden">
+        <img className="h-[0.5rem]" src={orangeCircle} alt="" />
+      </div>
+      <div className="absolute left-[28rem] top-[35rem] max-lg:hidden">
+        <img className="h-[1rem]" src={emptyCircle} alt="" />
+      </div>
+      <div className="absolute left-[28.6rem] top-[35.5rem] max-lg:hidden">
+        <img className="h-[0.5rem]" src={orangeCircle} alt="" />
       </div>
 
      

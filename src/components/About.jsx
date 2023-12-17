@@ -22,13 +22,13 @@ const About = () => {
         <div className="absolute left-[13rem] top-[-16rem] max-lg:hidden">
           <img className="h-[49rem]" src={aboutVector} alt="" />
         </div>
-        <div className="absolute left-[13.5rem] top-[-7rem] max-lg:hidden">
+        <div className="absolute left-[13.1rem] top-[-9rem] max-lg:hidden">
           <img className="h-[1rem]" src={yellowCircle} alt="" />
         </div>
-        <div className="absolute left-[26rem] top-[-7rem] max-lg:hidden">
+        <div className="absolute left-[23.6rem] top-[-9rem] max-lg:hidden">
           <img className="h-[.75rem]" src={yellowCircle} alt="" />
         </div>
-        <div className="absolute left-[44rem] top-[12rem] max-lg:hidden">
+        <div className="absolute left-[37.6rem] top-[8rem] max-lg:hidden">
           <img className="h-[1rem]" src={yellowCircle} alt="" />
         </div>
         <div className="absolute left-[27.5rem] top-[12.5rem] max-lg:hidden">

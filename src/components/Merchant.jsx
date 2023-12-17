@@ -5,7 +5,10 @@ import orangeCircle from "../assests/Ellipse807.png";
 import merchantVector from "../assests/merchantVector.png";
 import phone2 from "../assests/sellProduct.svg";
 import product from "../assests/productservice.svg";
+import arrow from "../assests/Polygon 2.svg";
+import orangeEmptyCircle from "../assests/Ellipse 1 - Outline.svg";
 import time from "../assests/timeslotes.svg";
+import emptyCircle from "../assests/Ellipse1Outline.png";
 
 
 import "./Feature.css";
@@ -16,11 +19,26 @@ const Feature = () => {
       <div className="absolute left-[44.2rem] top-[0rem] max-lg:hidden">
         <img className="h-[43.5rem] max-lg:hidden" src={merchantVector} alt="" />
       </div>
-      <div className="absolute left-[45.3rem] top-[2rem] max-lg:hidden">
-        <img className="h-[1rem]" src={orangeCircle} alt="" />
+      <div className="absolute left-[45.6rem] top-[2rem] max-lg:hidden">
+        <img className="h-[0.7rem]" src={orangeCircle} alt="" />
       </div>
-      <div className="absolute left-[54.8rem] top-[6rem] max-lg:hidden">
-        <img className="h-[1rem]" src={yellowCircle} alt="" />
+      <div className="absolute left-[55rem] top-[6rem] max-lg:hidden">
+        <img className="h-[0.7rem]" src={yellowCircle} alt="" />
+      </div>
+      <div className="absolute left-[68.5rem] top-[42.7rem] max-lg:hidden">
+        <img className="h-[0.7rem]" src={yellowCircle} alt="" />
+      </div>
+      <div className="absolute left-[56rem] top-[10rem] max-lg:hidden">
+        <img className="h-[1rem]" src={emptyCircle} alt="" />
+      </div>
+      <div className="absolute left-[56.6rem] top-[10rem] max-lg:hidden">
+        <img className="h-[0.5rem]" src={orangeCircle} alt="" />
+      </div>
+      <div className="absolute left-[56rem] top-[33rem] max-lg:hidden">
+        <img className="h-[1rem]" src={orangeEmptyCircle} alt="" />
+      </div>
+      <div className="absolute left-[55.6rem] top-[33.5rem] max-lg:hidden">
+        <img className="h-[0.5rem]" src={arrow} alt="" />
       </div>
 
       {/* <div className="absolute left-[55.5rem] top-[40rem] max-lg:hidden">
