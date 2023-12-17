@@ -19,7 +19,7 @@ const Footer = () => {
       className="w-[100vw] relative top-[7vh] font-poppins"
     >
       {/* UPPER PART  */}
-      <div className="mt-8 z-50 flex justify-center items-center flex-col">
+      <div className="mt-8 z-50 flex justify-center items-center flex-col ">
         <p className="text-[#273b60] font-extrabold text-3xl mb-4 pt-[1rem]">
           Get In Touch
         </p>
@@ -34,7 +34,7 @@ const Footer = () => {
 
       {/* MAIN FOOTER  */}
 
-      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-blue-900 h-[24rem] relative -z-50">
+      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-blue-900 h-[24rem] relative">
         {/* UPPER EMAIL  */}
 
         {/* MAIN LINKS  */}
