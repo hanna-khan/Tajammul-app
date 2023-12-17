@@ -24,10 +24,9 @@ const Feature = () => {
       <div className="absolute left-[56.8rem] top-[40rem] max-lg:hidden">
         <img className="h-[.75rem]" src={yellowCircle} alt="" />
       </div>
-      <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center max-lg:text-5xl pb-3">
+      <div className="text-yellow-400 capitalize text-center text-4xl font-bold pb-3">
         Features
       </div>
-
       <div className="flex xl:justify-between justify-center xl:flex-row flex-col ">
         <div className="max-xl:relative max-xl:right-[6rem] max-sm:right-[6rem] ml-[2rem]xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]">
           <div className="h-[18rem] w-[18rem]  max-sm:h-[12rem] max-sm:w-[12rem]">
@@ -55,7 +54,7 @@ const Feature = () => {
         <div className="flex-1 flex-wrap pl-[10rem] pt-[3rem] max-xl:pl-[2rem]">
           <div>
             <div
-              className="text-[#F16427] text-[52px] font-extrabold capitalize max-lg:text-4xl text-left"
+              className="text-[#F16427] text-3xl font-bold  text-left"
               style={{
                 wordWrap: "break-word",
               }}
@@ -63,7 +62,7 @@ const Feature = () => {
               User
             </div>
             <div
-              className="text-[#FDCE0C] text-[69px] font-extrabold capitalize max-lg:text-5xl text-left"
+              className="text-[#FDCE0C] text-4xl font-bold  text-left"
               style={{
                 wordWrap: "break-word",
               }}
@@ -71,7 +70,7 @@ const Feature = () => {
               Perspective
             </div>
           </div>
-          <div className="text-lg font-normal leading-[28px] text-slate-700 w-[90%] sm:text-lg ">
+          <div className="text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide">
             user, you can browse down to a variety of restaurants and grocery
             stores and pick the one that best suits your needs. You will be able
             to choose from a variety of alternatives. You'll also get access to

@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
+import AppleButton from '../assests/AppleBtn.png'
+import GoogleButton from '../assests/GoogleBtn.png'
 
 const DownloadApp = () => {
   return (
@@ -10,30 +12,18 @@ const DownloadApp = () => {
             <div className="container m-auto justify-around">
               <div className="flex max-md:flex-col">
                 <div className="ml-[2rem] relative flex-1 flex-wrap max-[630px]:flex-none">
-                  <div className="text-[#273B60] text-[42px] max-md:text-[32px] font-extrabold capitalize leading-[4.5rem] text-left">
+                  <div className="text-[#273B60] font-extrabold capitalize text-4xl text-left my-4">
                     Download App
                   </div>
-                  <div className="text-lg max-md:text-[14px] font-normal leading-[28px] tracking-[0px] text-slate-700">
+                  <div className="text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide mb-2">
                     It's all a click away! Just download our mobile application
                     to enjoy hassle-free delivery of your products and services.
                   </div>
                   <div className="flex mt-4">
-                    <a href="#">
-                      <button
-                        type="submit"
-                        className="btn btn-primary w-[10rem] max-sm:w-[8rem]"
-                      >
-                        <img src="./GoogleBtn.png" alt="" />
-                      </button>
-                    </a>
-                    <a href="#">
-                      <button
-                        type="submit"
-                        className="btn btn-primary ml-2 w-[10rem] max-sm:w-[8rem]"
-                      >
-                        <img src="./AppleBtn.png" alt="" />
-                      </button>
-                    </a>
+                  <div className='flex gap-4 items-center mt-3'>
+            <img src={GoogleButton} alt="" className='h-[2.8rem]' />
+            <img src={AppleButton} alt="" className='h-[2.8rem]' />
+          </div>
                   </div>
                 </div>
                 <div className="flex-1">

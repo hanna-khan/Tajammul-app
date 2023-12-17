@@ -31,15 +31,12 @@ const Feature = () => {
         <div className="flex-1 flex-wrap mx-2 m-auto">
           <div>
             <div
-              className="text-[#F16427] text-[52px] font-extrabold capitalize max-lg:text-4xl text-left"
-              style={{
-                wordWrap: "break-word",
-              }}
+              className="text-[#F16427] text-3xl font-bold  text-left"
             >
               Merchant
             </div>
             <div
-              className="text-[#FDCE0C] text-[69px] font-extrabold capitalize max-lg:text-5xl text-left"
+              className="text-[#FDCE0C] text-4xl font-bold  text-left"
               style={{
                 wordWrap: "break-word",
               }}
@@ -47,7 +44,7 @@ const Feature = () => {
               Perspective
             </div>
           </div>
-          <div className="text-lg font-normal leading-[28px] text-slate-700 w-[90%] sm:text-lg">
+          <div className="text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide">
             As a merchant, you will register your company as well as the
             products or services it provides. Then, in the booking calendar
             section, you must include the availability and time slots of those

@@ -12,7 +12,7 @@ import aboutgif from "../assests/aboutgif.gif";
 const About = () => {
   return (
     <>
-      <div data-aos='fade-right' id="about" className="w-screen pb-[8rem] relative top-[15rem] bg-stone-50 px-[20px]">
+      <div data-aos='fade-right' id="about" className="font-poppins w-screen pb-[8rem] relative top-[15rem] bg-stone-50 px-[20px]">
         <div className="absolute left-[13rem] top-[-16rem] max-lg:hidden">
           <img className="h-[60rem]" src={aboutVector} alt="" />
         </div>
@@ -29,7 +29,7 @@ const About = () => {
           <img className="h-[.75rem]" src={yellowCircle} alt="" />
         </div>
         <div>
-          <div className="text-yellow-400 text-[70px] font-extrabold capitalize text-center max-lg:text-5xl pt-[1rem]">
+          <div className="text-yellow-400 text-4xl font-bold capitalize text-center pt-[1rem]">
             About us
           </div>
           <div className="flex container m-auto flex-wrap max-[730px]:flex-col-reverse">
@@ -48,14 +48,12 @@ const About = () => {
                 <img  className="max-md:h-[2rem]  max-md:top-[1.5rem]  max-md:left-[-6rem] h-[3rem] relative top-[2rem] left-[-8.52rem]" src={smile} alt="" />
   
 
-                <span className="ml-[-5rem] text-[#273B60] text-[55px] font-semibold text-center max-lg:text-4xl mr-2 max-sm:text-[1.75rem]">
+                <span className="ml-[-5rem] text-[#273B60] text-3xl font-semibold text-center ">
                   tajammul.app
                 </span>
-              {/* <span className="text-right text-orange-500 text-[12px] font-bold leading-[20px] relative right-[17rem] top-[3rem]">
-                Shopping Made Easy
-              </span> */}
+             
               </div>
-              <div className="text-lg font-normal leading-[28px] tracking-[0px] text-slate-700 max-lg:text-base max-w-[80%] max-[730px]:m-auto max-[730px]:block max-sm:text-[0.9rem] ">
+              <div className="text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide">
                 Tajammul is an online solution for online groceries, food, and
                 daily needs delivery. More importantly, it provides a platform
                 for consumers to book services based on their current location.

@@ -20,7 +20,7 @@ const Footer = () => {
     >
       {/* UPPER PART  */}
       <div className="mt-8 z-50 flex justify-center items-center flex-col">
-        <p className="text-[#273b60] font-extrabold text-3xl  mb-4 pt-[1rem]">
+        <p className="text-[#273b60] font-extrabold text-3xl mb-4 pt-[1rem]">
           Get In Touch
         </p>
         <p className="text-[#273B60] max-sm:text-[7px] text-[0.7rem] relative top-[1.5rem]">
@@ -39,68 +39,68 @@ const Footer = () => {
 
         {/* MAIN LINKS  */}
         <div className="flex justify-center items-start gap-x-10 sm:pt-[2rem] pt-[1rem] pl-3 pr-3 sm:pl-0 sm:pr-0 text-white">
-          <div>
-            <p className="font-bold text-lg mb-2 sm:text-base">
+          <div className="max-sm:pt-[1rem]">
+            <p className="font-bold text-lg mb-2 sm:text-base max-sm:text-[14px]">
               Contact Us
             </p>
-            <p className="text-xs">@ info@tajammul.pk</p>
+            <p className="text-xs max-sm:text-[10px]">@ info@tajammul.pk</p>
           </div>
 
-          <div className="flex flex-col">
-            <p className="mb-2 font-bold text-lg sm:text-base">
+          <div className="flex flex-col max-sm:pt-[1rem]">
+            <p className="mb-2 font-bold text-lg sm:text-base max-sm:text-[14px]">
               Our Company
             </p>
 
-            <a href="#about" className="mb-2 text-xs">
+            <a href="#about" className="mb-2 text-xs max-sm:text-[10px]">
               About
             </a>
-            <a href="#serviceOfferings" className="mb-2 text-xs">
+            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px]">
               Product
             </a>
-            <a href="#serviceOfferings" className="mb-2 text-xs">
+            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px]">
               Services
             </a>
-            <a href="#contact" className="mb-2 text-xs">
+            <a href="#contact" className="mb-2 text-xs max-sm:text-[10px]">
               Contact us
             </a>
-            <Link to="/privacy-policy-business" className="text-xs">
+            <Link to="/privacy-policy-business" className="text-xs max-sm:text-[10px]">
               Privacy Policy Business
             </Link>
-            <Link to="/privacy-policy-customer" className="text-xs">
+            <Link to="/privacy-policy-customer" className="text-xs max-sm:text-[10px]">
               Privacy Policy Customer
             </Link>
           </div>
 
-          <div>
-            <p className="mb-6 font-bold text-lg text-xs">Social Contacts</p>
-            <div className="flex gap-x-2 items-center flex-wrap">
+          <div className="max-sm:pt-[1rem]">
+            <p className="mb-6 font-bold text-lg max-sm:text-[14px]">Social Contacts</p>
+            <div className="flex gap-x-2 items-center flex-wrap justify-between">
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center"
+                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaFacebookF size={14} />
               </div>
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center"
+                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaTwitter size={14} />
               </div>
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center"
+                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaLinkedinIn size={14} />
               </div>
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center"
+                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaInstagram size={14} />
               </div>
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center"
+                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaYoutube size={14} />
               </div>
@@ -119,7 +119,7 @@ const Footer = () => {
 
         {/* FOOTER COPYRIGHT  */}
         <div className=" absolute bottom-2">
-          <p className="text-[#273B60] text-center w-screen text-sm">
+          <p className="text-[#273B60] text-center w-screen text-sm max-sm:text-[12px]">
             Copyright © 2022 tajammul. All Rights Reserved
           </p>
         </div>
