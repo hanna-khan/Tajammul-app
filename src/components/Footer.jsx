@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div data-aos="" id="contact" className="w-[100vw] relative top-[7vh] font-poppins ">
       {/* UPPER PART  */}
-      <div className="mt-8 z-50 flex justify-center items-center flex-col mb-[0.69rem] ">
+      <div className="mt-8 z-50 flex justify-center items-center flex-col mb-[0.6rem] ">
         <p className="text-[#273b60] font-extrabold text-3xl mb-4 pt-[1rem]">
           Get In Touch
         </p>
