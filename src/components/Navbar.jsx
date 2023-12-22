@@ -30,7 +30,7 @@ const Navbar = () => {
                             navLinks?.map((item, index) => {
                                 return (
                                     <a href={item.link}>
-                                        <p key={index + 1} className='text-[#313131] text-sm lg:text-base font-poppins cursor-pointer'>{item?.title}</p>
+                                        <p key={index + 1} className='text-[#313131] hover:text-[#6d96e0] transition-all ease-in-out text-sm lg:text-base font-poppins cursor-pointer'>{item?.title}</p>
                                     </a>
                                 )
                             })
@@ -58,10 +58,10 @@ const Navbar = () => {
                     {/* SOCIALLINKS SECTION  */}
 
                     <div className='flex gap-x-3 items-center'>
-                        <FaFacebookF className='text-[#F16427] text-sm lg:text-lg' />
-                        <FaInstagram className='text-[#F16427] text-sm lg:text-lg' />
-                        <FaTwitter className='text-[#F16427] text-sm lg:text-lg' />
-                        <FaLinkedinIn className='text-[#F16427] text-sm lg:text-lg' />
+                        <FaFacebookF className='text-[#F16427] text-sm lg:text-lg cursor-pointer' />
+                        <FaInstagram className='text-[#F16427] text-sm lg:text-lg cursor-pointer' />
+                        <FaTwitter className='text-[#F16427] text-sm lg:text-lg cursor-pointer' />
+                        <FaLinkedinIn className='text-[#F16427] text-sm lg:text-lg cursor-pointer' />
                         <GiHamburgerMenu onClick={() => setshowNavLinks(!showNavLinks)} className='text-[#F16427] text-sm lg:text-lg block sm:hidden' />
                     </div>
 

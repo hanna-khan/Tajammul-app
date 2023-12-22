@@ -15,11 +15,11 @@ const Footer = () => {
   return (
     <div data-aos="" id="contact" className="w-[100vw] relative top-[7vh] font-poppins ">
       {/* UPPER PART  */}
-      <div className="mt-8 z-50 flex justify-center items-center flex-col mb-[0.6rem] ">
+      <div className="mt-8 z-50 flex justify-center items-center flex-col mb-[1rem] sm:mb-[0.6rem] ">
         <p className="text-[#273b60] font-extrabold text-3xl mb-4 pt-[1rem]">
           Get In Touch
         </p>
-        <p className="text-[#273B60] max-sm:text-[7px] text-[0.7rem] relative top-[1.5rem]">
+        <p className="text-[#273B60]   max-sm:text-[7px] text-[0.7rem] relative top-[1rem] sm:top-[1.5rem]">
           info@tajammul.app
         </p>
         <img
@@ -39,29 +39,29 @@ const Footer = () => {
             <p className="font-bold text-lg mb-2 sm:text-base max-sm:text-[14px]">
               Contact Us
             </p>
-            <p className="text-xs max-sm:text-[10px]">@ info@tajammul.pk</p>
+            <p className="text-xs max-sm:text-[10px] hover:text-[#6d96e0] transition-all ease-in-out cursor-pointer">@ info@tajammul.pk</p>
           </div>
 
           <div className="flex flex-col max-sm:pt-[1rem]">
             <p className="mb-2 font-bold text-lg sm:text-base max-sm:text-[14px]">
               Our Company
             </p>
-            <a href="#about" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer">
+            <a href="#about" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer hover:text-[#6d96e0] transition-all ease-in-out">
               About
             </a>
-            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer">
+            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer hover:text-[#6d96e0] transition-all ease-in-out">
               Product
             </a>
-            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer">
+            <a href="#serviceOfferings" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer hover:text-[#6d96e0] transition-all ease-in-out">
               Services
             </a>
-            <a href="#contact" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer">
+            <a href="#contact" className="mb-2 text-xs max-sm:text-[10px] cursor-pointer hover:text-[#6d96e0] transition-all ease-in-out">
               Contact us
             </a>
-            <Link to="/privacy-policy-business" className="text-xs pb-2 cursor-pointer max-sm:text-[10px]">
+            <Link to="/privacy-policy-business" className="text-xs pb-2 cursor-pointer max-sm:text-[10px] hover:text-[#6d96e0] transition-all ease-in-out">
               Privacy Policy Business
             </Link>
-            <Link to="/privacy-policy-customer" className="text-xs cursor-pointer max-sm:text-[10px]">
+            <Link to="/privacy-policy-customer" className="text-xs cursor-pointer max-sm:text-[10px] hover:text-[#6d96e0] transition-all ease-in-out">
               Privacy Policy Customer
             </Link>
           </div>
@@ -71,31 +71,31 @@ const Footer = () => {
             <div className="flex gap-x-2 items-center flex-wrap justify-between">
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
+                className="w-[1.5rem] hover:bg-[#6d96e0] cursor-pointer h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaFacebookF size={14} />
               </div>
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
+                className="w-[1.5rem] h-[1.5rem] hover:bg-[#6d96e0] cursor-pointer rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaTwitter size={14} />
               </div>
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
+                className="w-[1.5rem] h-[1.5rem] hover:bg-[#6d96e0] cursor-pointer rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaLinkedinIn size={14} />
               </div>
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
+                className="w-[1.5rem] h-[1.5rem] hover:bg-[#6d96e0] cursor-pointer rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaInstagram size={14} />
               </div>
               <div
                 style={{ border: "2px solid white" }}
-                className="w-[1.5rem] h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
+                className="w-[1.5rem] h-[1.5rem] hover:bg-[#6d96e0] cursor-pointer rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaYoutube size={14} />
               </div>
@@ -125,7 +125,7 @@ const Footer = () => {
         <img
           src={FooterImage}
           alt=""
-          className="h-[10rem] bg-cover w-[100vw] rotate-180"
+          className="h-[10rem] bg-cover w-[100vw]  rotate-180"
         />
       </div>
     </div>

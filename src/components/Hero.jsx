@@ -11,6 +11,8 @@ import MobileScreen from '../assests/mobilescreen.png'
 import MobileBg from '../assests/bg.png'
 import CircleGif from '../assests/circle.gif'
 import Pot from '../assests/pot.svg'
+import Cart from '../assests/cart.svg'
+
 
 const Hero = () => {
   return (
@@ -22,12 +24,15 @@ const Hero = () => {
       <div className='lg:flex justify-between w-[screen]'>
 
         {/* LEFT SECTION  */}
-        <div className='flex-1 pl-[4rem] sm:pl-[6.7rem] lg:mb-0 mb-[2rem]'>
+        <div className='flex-1 pl-[1rem] pr-[1rem] sm:pl-[6.7rem] lg:mb-0 mb-[2rem]'>
 
           {/* TEXT  */}
           <div className=''>
-            <h1 className='text-[#F16427] text-3xl font-bold mb-2'>Life</h1>
-            <h1 className='text-[#fdce0c] text-4xl font-bold mb-2'>Made Easy</h1>
+            <div className='flex items-center gap-x-2 mb-2'>
+              <p className='text-[#F16427] text-3xl font-bold mb-[-1rem]'>Life</p>
+              <img src={Cart} alt="" className='h-[7rem]'/>
+            </div>
+            <h1 className='text-[#fdce0c] text-4xl font-bold mb-2 mt-[-1rem]'>Made Easy</h1>
             <p className='text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide'>Tajammul.app is a complete eCommerce solution that aims to ease your life by providing you with online delivery services for food, grocery and other essentials. Not only do we serve you with the best of our quality products, but with Tajammul.app you can book your services anytime and anywhere, by tracking the availability of the restaurants, clinics and salons. You can book both, as a merchant and get profits, as well as book as a consumer and avail offered services.</p>
           </div>
 
