@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import AppleButton from '../assests/AppleBtn.png'
@@ -11,7 +10,7 @@ const DownloadApp = () => {
         <div className="w-full bg-[#FDCE0C] overflow-visible">
             <div className="container m-auto justify-around">
               <div className="flex max-md:flex-col">
-                <div className="ml-[2rem] relative flex-1 flex-wrap max-[630px]:flex-none">
+                <div className="ml-[2rem] relative flex-1 m-auto flex-wrap max-[630px]:flex-none">
                   <div className="text-[#273B60] font-extrabold capitalize text-4xl text-left my-4">
                     Download App
                   </div>
@@ -20,15 +19,23 @@ const DownloadApp = () => {
                     to enjoy hassle-free delivery of your products and services.
                   </div>
                   <div className="flex mt-4">
-                  <div className='flex gap-4 items-center mt-3'>
-            <img src={GoogleButton} alt="" className='h-[2.8rem]' />
-            <img src={AppleButton} alt="" className='h-[2.8rem]' />
-          </div>
+                    <div className='flex gap-4 items-center mt-3'>
+                    <img
+                      src={GoogleButton}
+                      alt=""
+                      className='h-[2.8rem] transition-transform duration-300 transform hover:scale-110 cursor-pointer'
+                    />
+                    <img
+                      src={AppleButton}
+                      alt=""
+                      className='h-[2.8rem] transition-transform duration-300 transform hover:scale-110 cursor-pointer'
+                    />
+                    </div>
                   </div>
                 </div>
-                <div className="flex-1">
+                <div className="flex-1 top-4 relative sm:top-4">
                   <img
-                    className="max-md:flex-col relative top-[-2rem] right-[170px] h-[20rem] max-lg:h-[16rem] max-lg:top-[-4px] max-lg:right-[0rem] max-md:h-[320px] max-sm:h-[16rem] max-md:top-[20px] max-md:left-[4rem] max-sm:left-[0rem]"
+                    className=""
                     src="./twoPhone.png"
                     alt="Phone Image"
                   />
