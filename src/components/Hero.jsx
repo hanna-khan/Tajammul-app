@@ -33,8 +33,16 @@ const Hero = () => {
 
           {/* BUTTONS  */}
           <div className=' flex gap-4 items-center mt-3'>
-            <img src={GoogleButton} alt="" className='h-[2.8rem]' />
-            <img src={AppleButton} alt="" className='h-[2.8rem]' />
+          <img
+                      src={GoogleButton}
+                      alt=""
+                      className='h-[2.8rem] transition-transform duration-300 transform hover:scale-110 cursor-pointer'
+                    />
+                    <img
+                      src={AppleButton}
+                      alt=""
+                      className='h-[2.8rem] transition-transform duration-300 transform hover:scale-110 cursor-pointer'
+                    />
           </div>
 
         </div>
