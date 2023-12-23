@@ -45,14 +45,14 @@ const Navbar = () => {
             <div className="absolute right-0 top-[2rem] block sm:hidden w-[100%] pt-5 pb-5 pl-3 bg-white ">
               {navLinks?.map((item, index) => {
                 return (
-                  <Link to={item.link}>
+                  <a href={item.link}>
                     <p
                       key={index + 1}
                       className="text-[#313131] mb-2 text-sm font-poppins cursor-pointer"
                     >
                       {item?.title}
                     </p>
-                  </Link>
+                  </a>
                 );
               })}
             </div>

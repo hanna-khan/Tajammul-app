@@ -88,7 +88,7 @@ const Feature = () => {
               </div>
             </div>
           </div>
-          <div className="max-sm:left-[3rem] max-sm:top-[-7rem] max-sm:h-[12rem] max-sm:w-[12rem] relative top-[-10rem] h-[18rem] w-[18rem] text-[20px] font-bold  text-slate-700">
+          <div className="max-sm:left-[3rem] max-sm:top-[-7rem] max-sm:h-[12rem] max-sm:w-[12rem] relative top-[-13rem] max-xl:top-[-10rem] h-[18rem] w-[18rem] text-[20px] font-bold  text-slate-700">
             <img
               className="h-[100%] w-[100%] rounded-2xl drop-shadow-lg transition duration-300 ease-in-out hover:scale-110"
               src={time}
