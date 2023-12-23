@@ -14,12 +14,12 @@ const DownloadApp = () => {
                   <div className="text-[#273B60] font-extrabold capitalize text-4xl text-left my-4">
                     Download App
                   </div>
-                  <div className="text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide">
+                  <div className="text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide m-auto sm:m-0">
                     It's all a click away! Just download our mobile application
                     to enjoy hassle-free delivery of your products and services.
                   </div>
                   <div className="flex mt-4">
-                    <div className='flex gap-4 items-center mt-3'>
+                    {/* <div className='flex gap-4 items-center mt-3'>
                     <img
                       src={GoogleButton}
                       alt=""
@@ -30,7 +30,20 @@ const DownloadApp = () => {
                       alt=""
                       className='h-[2.8rem] transition-transform duration-300 transform hover:scale-110 cursor-pointer'
                     />
-                    </div>
+                    </div> */}
+                    <div className="flex gap-4 items-center mt-3">
+  <img
+    src={GoogleButton}
+    alt=""
+    className="h-[2.8rem] transition-transform duration-300 transform hover:scale-110 hover:shadow-md  cursor-pointer"
+  />
+  <img
+    src={AppleButton}
+    alt=""
+    className="h-[2.8rem] transition-transform duration-300 transform hover:scale-105 hover:rotate-4 cursor-pointer"
+  />
+</div>
+
                   </div>
                 </div>
                 <div className="flex-1 top-4 relative sm:top-4">

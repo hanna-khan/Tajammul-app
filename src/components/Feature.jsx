@@ -13,7 +13,7 @@ const Feature = () => {
   return (
     <div data-aos='fade-right' id="feature" className="w-screen pb-10 relative top-[19rem]">
       <div className="absolute left-[32rem] top-[-4rem] max-xl:hidden z-0">
-        <img className="h-[48rem] max-xl:hidden" src={vector} alt="" />
+        <img className="h-[46rem] max-xl:hidden" src={vector} alt="" />
       </div>
       <div className="absolute left-[63rem] top-[-2rem] max-xl:hidden">
         <img className="h-[0.7rem]" src={orangeCircle} alt="" />
@@ -39,7 +39,7 @@ const Feature = () => {
         Features
       </div>
       <div className="flex xl:justify-between justify-center xl:flex-row flex-col ">
-        <div className="max-xl:relative max-xl:right-[6rem] max-sm:right-[6rem] ml-[2rem]xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]">
+        <div className="max-xl:relative max-xl:right-[6rem] max-sm:right-[6rem] ml-[2rem]xl:block justify-center items-center flex-col flex flex-1 relative top-[0rem] xl:top-[-6rem]">
           <div className="h-[18rem] w-[18rem]  max-sm:h-[12rem] max-sm:w-[12rem]">
             <div>
               <div className="relative top-[1rem] max-sm:left-[2rem]">
@@ -62,7 +62,7 @@ const Feature = () => {
             />
           </div>
         </div>
-        <div className="flex-1 flex-wrap pl-[10rem] pt-[3rem] max-xl:pl-[2rem]">
+        <div className="flex-1 flex-wrap pl-[10rem] pt-[3rem] max-xl:pl-[1rem]">
           <div>
             <div
               className="text-[#F16427] text-3xl font-bold  text-left"
@@ -81,14 +81,14 @@ const Feature = () => {
               Perspective
             </div>
           </div>
-          <div className="text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide">
-            user, you can browse down to a variety of restaurants and grocery
+          <p className="text-[#273b60] text-sm mb-2 w-[98%] sm:w-[90%] lg:w-[80%] tracking-wide m-auto sm:m-0">
+            User, you can browse down to a variety of restaurants and grocery
             stores and pick the one that best suits your needs. You will be able
             to choose from a variety of alternatives. You'll also get access to
             the booking calendar, which is updated with service platform
             availability. Simply shop, schedule appointments, and pay for your
             purchases without any hassle or additional expenses.
-          </div>
+          </p>
         </div>
       </div>
     </div>

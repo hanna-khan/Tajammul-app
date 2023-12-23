@@ -59,7 +59,7 @@ const About = () => {
               <div>
                 <img src={Logo} alt="" className="lg:h-[3rem] h-[2rem]" />
               </div>
-              <div className="text-[#273b60] text-sm mb-2 w-[90%] sm:w-[90%] lg:w-[80%] tracking-wide">
+              <p className="text-[#273b60] text-sm mb-2 w-[90%] sm:w-[90%] lg:w-[80%] tracking-wide m-auto sm:m-0">
                 Tajammul is an online solution for online groceries, food, and
                 daily needs delivery. More importantly, it provides a platform
                 for consumers to book services based on their current location.
@@ -68,7 +68,7 @@ const About = () => {
                 decoration services. Also, merchants can register as salespeople
                 promoting their businesses, such as food delivery restaurants,
                 grocery stores and medical pharmacies.
-              </div>
+              </p>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ import "./Feature.css";
 
 const Feature = () => {
   return (
-    <div data-aos='fade-left' className="w-screen pb-10 relative top-[19rem] bg-stone-50 pl-[2rem] pt-[3rem]">
+    <div data-aos='fade-left' className="w-screen pb-10 relative top-[19rem] bg-stone-50 pl-[1rem] pt-[3rem]">
       <div className="absolute left-[44.2rem] top-[0rem] max-lg:hidden">
         <img className="h-[43.5rem] max-xl:hidden" src={merchantVector} alt="" />
       </div>
@@ -46,7 +46,7 @@ const Feature = () => {
       </div> */}
 
       <div className="flex xl:justify-between justify-center xl:flex-row flex-col">
-        <div className="flex-1 flex-wrap mx-2 m-auto relative left-[8rem] max-xl:left-[0rem]">
+        <div className="flex-1 flex-wrap mx-2 relative left-[8rem] max-xl:left-[0rem] xl:top-[10rem] top-0">
           <div>
             <div
               className="text-[#F16427] text-3xl font-bold  text-left"
@@ -62,7 +62,7 @@ const Feature = () => {
               Perspective
             </div>
           </div>
-          <div className="text-[#273b60] text-sm mb-2  w-[90%] sm:w-[90%] lg:w-[80%]  tracking-wide">
+          <div className="text-[#273b60] text-sm mb-2 sm:w-[90%] lg:w-[80%] tracking-wide m-auto sm:m-0">
             As a merchant, you will register your company as well as the
             products or services it provides. Then, in the booking calendar
             section, you must include the availability and time slots of those
@@ -72,7 +72,7 @@ const Feature = () => {
         </div>
         {/* Images Section */}
         <div className="xl:block justify-center items-center flex-col flex flex-1 pt-[2rem]  max-xl:relative max-xl:right-[8rem] max-sm:right-[9rem] ml-[2rem]">
-          <div className="max-sm:h-[12rem] max-sm:w-[12rem] relative max-sm:left-[12rem] left-[14rem] h-[18rem] w-[18rem]">
+          <div className="max-sm:h-[12rem] max-sm:w-[12rem] relative max-sm:left-[12rem] left-[14rem] h-[18rem] w-[18rem] xl:top-[-4rem] top-0">
             <div>
              
               <div className="max-sm:h-[12rem] max-sm:w-[12rem] relative rounded-2xl left-[-2rem] top-[1rem] h-[18rem] w-[18rem]">
