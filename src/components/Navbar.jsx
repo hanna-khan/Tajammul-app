@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import Logo from "../assests/tajamul.png";
 import HalfCircle from "../assests/navCircle.png";
@@ -39,7 +40,6 @@ const Navbar = () => {
               );
             })}
           </div>
-
           {/* RESPONSIVE NAVLINK SECTION  */}
           {showNavLinks && (
             <div className="absolute right-0 top-[2rem] block sm:hidden w-[100%] pt-5 pb-5 pl-3 bg-white ">
@@ -59,33 +59,37 @@ const Navbar = () => {
           )}
 
           {/* SOCIALLINKS SECTION  */}
-{/* bard */}
-          {/* <div className="flex gap-x-3 items-center">
-            <FaFacebookF className="hover:text-blue-400 hover:scale-110 transition-all duration-300 text-[#F16427] text-sm lg:text-lg cursor-pointer" />
-            <FaInstagram className="hover:text-purple-500 hover:scale-110 transition-all duration-300 text-[#F16427] text-sm lg:text-lg cursor-pointer" />
-            <FaTwitter className="hover:text-blue-500 hover:scale-110 transition-all duration-300 text-[#F16427] text-sm lg:text-lg cursor-pointer" />
-            <FaLinkedinIn className="hover:text-blue-700 hover:scale-110 transition-all duration-300 text-[#F16427] text-sm lg:text-lg cursor-pointer" />
+
+          <div className="flex gap-x-3 items-center">
+            <a
+              href="#"
+              className="hover:text-white hover:scale-110 transition-transform "
+            >
+              <FaFacebookF className="text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-blue-400 " />
+            </a>
+            <a
+              href="#"
+              className="hover:text-white hover:scale-110 transition-transform"
+            >
+              <FaInstagram className="text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-purple-500" />
+            </a>
+            <a
+              href="#"
+              className="hover:text-white hover:scale-110 transition-transform"
+            >
+              <FaTwitter className="text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-blue-500" />
+            </a>
+            <a
+              href="#"
+              className="hover:text-white hover:scale-110 transition-transform"
+            >
+              <FaLinkedinIn className="text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-blue-700" />
+            </a>
             <GiHamburgerMenu
               onClick={() => setshowNavLinks(!showNavLinks)}
-              className="hover:text-blue-700 hover:scale-110 transition-all duration-300 text-[#F16427] text-sm lg:text-lg block sm:hidden"
+              className="text-[#F16427] text-sm lg:text-lg cursor-pointer block sm:hidden hover:text-blue-700"
             />
-          </div> */}
-         
-<div className='flex gap-x-3 items-center'>
-      <a href="#" className="hover:text-white hover:scale-110 transition-transform ">
-        <FaFacebookF className='text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-blue-400 ' />
-      </a>
-      <a href="#" className="hover:text-white hover:scale-110 transition-transform">
-        <FaInstagram className='text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-purple-500' />
-      </a>
-      <a href="#" className="hover:text-white hover:scale-110 transition-transform">
-        <FaTwitter className='text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-blue-500' />
-      </a>
-      <a href="#" className="hover:text-white hover:scale-110 transition-transform">
-        <FaLinkedinIn className='text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-blue-700' />
-      </a>
-      <GiHamburgerMenu onClick={() => setshowNavLinks(!showNavLinks)} className='text-[#F16427] text-sm lg:text-lg cursor-pointer block sm:hidden hover:text-blue-700' />
-    </div>
+          </div>
         </div>
       </div>
 
